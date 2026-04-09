@@ -37,6 +37,7 @@ pip install -r requirements.txt
 - `current_pipeline` is the canonical path.
 - `legacy` exists so nothing important is lost, but it is not the recommended execution path.
 - `outputs` is where v2-generated artifacts should live conceptually.
+- the downloaded Syncialo snapshot now lives under `data/syncialo_snapshot/`
 
 ## Notes
 

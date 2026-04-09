@@ -50,7 +50,7 @@ Everything is written under:
 
 Important subfolders:
 
-- `syncialo_snapshot/`
+- `data/syncialo_snapshot/`
 - `models/`
 - `graphs/`
 - `analysis/`

@@ -44,6 +44,10 @@ Important output root:
 
 - `outputs/full_pipeline/`
 
+Downloaded source snapshot:
+
+- `data/syncialo_snapshot/`
+
 ## 2. Dataset snapshot
 
 Function:
@@ -58,7 +62,7 @@ What happens:
 
 - The Syncialo debate dataset snapshot is downloaded or reused.
 - Debate JSON files are stored under:
-  - `outputs/full_pipeline/syncialo_snapshot/`
+  - `data/syncialo_snapshot/`
 
 ## 3. Build training pairs
 

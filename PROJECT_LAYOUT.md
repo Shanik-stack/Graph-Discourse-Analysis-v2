@@ -12,6 +12,7 @@ clean_project_v2/
 │   └── run_pipeline.py
 ├── data/
 │   ├── discourse_graph/
+│   ├── syncialo_snapshot/
 │   └── stance_pipeline/
 ├── outputs/
 │   ├── README.md

@@ -8,7 +8,7 @@ import joblib
 
 import pandas as pd
 
-from btp_clean.paths import ARTIFACTS_DIR
+from btp_clean.paths import ARTIFACTS_DIR, DATA_DIR
 from btp_clean.stance_pipeline import algo_visualizer as av
 from btp_clean.stance_pipeline import graph_algorithms as ga
 from btp_clean.stance_pipeline import graph_builder as gb
@@ -51,7 +51,7 @@ class FullPipelineConfig:
 
     @property
     def snapshot_dir(self) -> Path:
-        return self.root_dir / "syncialo_snapshot"
+        return DATA_DIR / "syncialo_snapshot"
 
     @property
     def models_dir(self) -> Path:
