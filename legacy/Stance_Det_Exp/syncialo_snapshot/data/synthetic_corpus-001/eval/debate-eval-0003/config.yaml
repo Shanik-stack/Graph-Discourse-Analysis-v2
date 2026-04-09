@@ -1,0 +1,27 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0003
+degree_config:
+- 3
+- 4
+- 2
+- 1
+- 0
+motion:
+  claim: This house believes that the Biden administration's continued support for
+    the death penalty fundamentally undermines the principles of critical thinking,
+    human rights, and social justice, particularly for marginalized groups including
+    LGBTQ individuals.
+  label: Death Penalty Betrays Justice
+split: eval
+tags:
+- LGBTQ
+- Vegetarian
+- Environment
+- Biden
+- OpenSource
+- Humans
+- CriticalThinking
+- DeathPenalty
+topic: Resolved, that the Biden administration's stance on the death penalty is at
+  odds with the principles of critical thinking and human rights, particularly with
+  regards to LGBTQ individuals.

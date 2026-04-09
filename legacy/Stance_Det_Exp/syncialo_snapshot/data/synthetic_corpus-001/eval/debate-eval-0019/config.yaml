@@ -1,0 +1,25 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0019
+degree_config:
+- 3
+- 2
+- 2
+- 1
+- 1
+- 0
+motion:
+  claim: Facial recognition technology in public spaces constitutes a disproportionate
+    threat to individual privacy and freedom, particularly for marginalized groups.
+  label: Faces of Oppression
+split: eval
+tags:
+- Crypto
+- Learning
+- LGBTQ
+- Biden
+- Health
+- ScienceFiction
+- Crime
+- Conscription
+topic: Is the use of facial recognition technology in public spaces an infringement
+  on privacy rights?

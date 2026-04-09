@@ -1,0 +1,25 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0043
+degree_config:
+- 4
+- 3
+- 2
+- 1
+- 0
+motion:
+  claim: The US military should be permitted to utilize targeted advertising on social
+    media platforms for recruitment and image promotion purposes.
+  label: Targeting the Troops
+split: eval
+tags:
+- Military
+- America
+- Crypto
+- Crime
+- Currency
+- Biden
+- Advertising
+- Conscription
+topic: Should the US military be allowed to use targeted advertising on social media
+  platforms to recruit new personnel and promote a positive image, despite concerns
+  over data protection and the potential for manipulation?

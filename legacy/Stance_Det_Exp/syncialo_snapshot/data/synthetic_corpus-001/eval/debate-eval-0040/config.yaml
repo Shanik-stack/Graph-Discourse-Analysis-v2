@@ -1,0 +1,23 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0040
+degree_config:
+- 6
+- 6
+- 1
+- 0
+motion:
+  claim: A global shift towards vegetarianism is necessary to prevent environmental
+    catastrophe and ensure human sustainability.
+  label: Meatless for Survival
+split: eval
+tags:
+- LGBTQ
+- Vegetarian
+- Environment
+- Biden
+- OpenSource
+- Humans
+- CriticalThinking
+- DeathPenalty
+topic: Resolved, that a global shift towards vegetarianism is crucial for mitigating
+  environmental degradation and ensuring a sustainable future for humans.

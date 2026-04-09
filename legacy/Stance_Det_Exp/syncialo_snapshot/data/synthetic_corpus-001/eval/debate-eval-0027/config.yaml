@@ -1,0 +1,26 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0027
+degree_config:
+- 3
+- 2
+- 2
+- 1
+- 1
+- 0
+motion:
+  claim: Human nature inherently perpetuates the spread of false theories online,
+    rendering regulation and education ineffective in curbing misinformation.
+  label: Falsehoods Fuel the Fray
+split: eval
+tags:
+- Cryptocurrency
+- Energy
+- Sustainability
+- DarkWeb
+- FalseTheories
+- Humans
+- LGBTQ
+- Comics
+topic: The spread of False Theories online, including those related to cryptocurrency
+  and energy, is a direct result of human nature and cannot be mitigated by regulation
+  or education.

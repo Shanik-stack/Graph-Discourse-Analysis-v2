@@ -1,0 +1,26 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0022
+degree_config:
+- 3
+- 2
+- 2
+- 1
+- 1
+- 0
+motion:
+  claim: This house believes that current climate change mitigation efforts are sufficient
+    to protect vulnerable populations, including the LGBTQ community and those with
+    compromised health, from catastrophic consequences.
+  label: Protecting the Vulnerable
+split: eval
+tags:
+- Crypto
+- Learning
+- LGBTQ
+- Biden
+- Health
+- ScienceFiction
+- Crime
+- Conscription
+topic: Is the current approach to climate change mitigation sufficient to avoid catastrophic
+  consequences?

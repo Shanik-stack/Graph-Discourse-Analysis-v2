@@ -1,0 +1,25 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0050
+degree_config:
+- 3
+- 2
+- 2
+- 1
+- 1
+- 0
+motion:
+  claim: Censoring climate change protests hinders the global transition to open-source
+    renewable energy.
+  label: Muting Green Progress
+split: eval
+tags:
+- Energy
+- OpenSource
+- Protest
+- Humans
+- Censorship
+- Military
+- Nature
+- Parliament
+topic: This House believes that censorship of climate change protests undermines the
+  transition to open-source renewable energy.

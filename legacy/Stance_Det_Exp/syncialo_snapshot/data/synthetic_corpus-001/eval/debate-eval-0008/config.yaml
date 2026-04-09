@@ -1,0 +1,26 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0008
+degree_config:
+- 4
+- 3
+- 2
+- 1
+- 0
+motion:
+  claim: Military intervention is justified to protect LGBTQ rights in countries where
+    they are severely violated, even at the cost of compromising the intervening nation's
+    economic sustainability.
+  label: Rights Over Riches
+split: eval
+tags:
+- DecisionMaking
+- Crypto
+- Vegetarian
+- Military
+- Sustainability
+- Green
+- LGBTQ
+- Policy
+topic: Resolved, that military intervention is justified to protect LGBTQ rights in
+  countries where they are severely violated, even if it means compromising the sustainability
+  of the intervening nation's economy.

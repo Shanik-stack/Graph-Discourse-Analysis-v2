@@ -1,0 +1,16 @@
+numpy
+pandas
+torch
+transformers
+streamlit
+plotly
+networkx
+pyvis
+spacy
+scikit-learn
+datasets
+huggingface_hub
+sentence-transformers
+igraph
+joblib
+matplotlib

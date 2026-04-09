@@ -1,0 +1,24 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0049
+degree_config:
+- 5
+- 5
+- 2
+- 0
+motion:
+  claim: Lowering the minimum voting age to 16 in national elections is essential
+    for fostering an inclusive democracy that truly represents the interests of all
+    citizens, particularly those impacted by decisions on education, healthcare, and
+    social justice.
+  label: Votes at 16
+split: eval
+tags:
+- Crypto
+- Learning
+- LGBTQ
+- Biden
+- Health
+- ScienceFiction
+- Crime
+- Conscription
+topic: Should the minimum voting age be lowered to 16 in national elections?

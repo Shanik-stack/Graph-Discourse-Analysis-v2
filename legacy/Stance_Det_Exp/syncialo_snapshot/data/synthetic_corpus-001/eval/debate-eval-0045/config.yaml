@@ -1,0 +1,23 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0045
+degree_config:
+- 6
+- 6
+- 1
+- 0
+motion:
+  claim: Prioritizing poverty eradication on Earth over space exploration is a moral
+    imperative for humanity.
+  label: Earth Over Orbit
+split: eval
+tags:
+- LGBTQ
+- Antinatalism
+- Energy
+- Referendum
+- Humans
+- DeathPenalty
+- Conscription
+- Blockchain
+topic: This house would not prioritize the development of space exploration over the
+  eradication of poverty on Earth.

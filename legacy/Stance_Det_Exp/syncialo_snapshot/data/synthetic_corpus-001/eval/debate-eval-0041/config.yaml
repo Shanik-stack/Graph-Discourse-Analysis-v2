@@ -1,0 +1,24 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0041
+degree_config:
+- 5
+- 5
+- 2
+- 0
+motion:
+  claim: This house believes that facial recognition technology should remain permissible
+    in public spaces to ensure the safety and security of marginalized communities,
+    including LGBTQ individuals.
+  label: Faces of Safety
+split: eval
+tags:
+- LGBTQ
+- Antinatalism
+- Energy
+- Referendum
+- Humans
+- DeathPenalty
+- Conscription
+- Blockchain
+topic: This house would not ban the use of facial recognition technology in public
+  spaces.

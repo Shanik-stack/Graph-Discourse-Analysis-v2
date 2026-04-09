@@ -1,0 +1,28 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0039
+degree_config:
+- 3
+- 2
+- 2
+- 1
+- 1
+- 0
+motion:
+  claim: This house believes that open-source technologies are the most effective
+    means to address environmental crises and promote sustainable development, but
+    their full potential is hindered by a prevailing lack of critical thinking in
+    their implementation.
+  label: Open Source, Closed Minds
+split: eval
+tags:
+- LGBTQ
+- Vegetarian
+- Environment
+- Biden
+- OpenSource
+- Humans
+- CriticalThinking
+- DeathPenalty
+topic: Resolved, that open-source technologies hold the key to addressing environmental
+  crises and promoting sustainable development, but are hindered by the lack of critical
+  thinking in their implementation.

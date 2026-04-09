@@ -1,0 +1,25 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0038
+degree_config:
+- 3
+- 4
+- 2
+- 1
+- 0
+motion:
+  claim: Parliaments should prioritize human well-being and environmental protection
+    over economic interests when regulating protests against energy projects.
+  label: People Over Profit
+split: eval
+tags:
+- Energy
+- OpenSource
+- Protest
+- Humans
+- Censorship
+- Military
+- Nature
+- Parliament
+topic: This House believes that parliaments should prioritize human well-being over
+  economic interests when regulating protests against environmentally destructive
+  energy projects.

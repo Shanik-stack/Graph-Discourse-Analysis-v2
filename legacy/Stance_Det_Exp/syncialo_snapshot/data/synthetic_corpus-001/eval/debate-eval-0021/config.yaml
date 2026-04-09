@@ -1,0 +1,24 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0021
+degree_config:
+- 4
+- 3
+- 2
+- 1
+- 0
+motion:
+  claim: A parliamentary committee is necessary to oversee the development of AI in
+    the military to prevent human rights abuses and ensure accountability.
+  label: Regulating Military AI
+split: eval
+tags:
+- Energy
+- OpenSource
+- Protest
+- Humans
+- Censorship
+- Military
+- Nature
+- Parliament
+topic: This House advocates for a parliamentary committee to oversee the development
+  of AI in the military to prevent human rights abuses.

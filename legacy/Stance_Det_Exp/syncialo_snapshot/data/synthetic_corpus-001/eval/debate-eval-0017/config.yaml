@@ -1,0 +1,25 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0017
+degree_config:
+- 2
+- 2
+- 3
+- 1
+- 0
+motion:
+  claim: Implementing a global tax on meat production and consumption would accelerate
+    a shift towards a vegetarian diet, ensuring a green and sustainable future.
+  label: Meat Tax for Sustainability
+split: eval
+tags:
+- DecisionMaking
+- Crypto
+- Vegetarian
+- Military
+- Sustainability
+- Green
+- LGBTQ
+- Policy
+topic: Resolved, that a global shift towards a vegetarian diet is necessary for a
+  green and sustainable future, and therefore, meat production and consumption should
+  be heavily taxed.

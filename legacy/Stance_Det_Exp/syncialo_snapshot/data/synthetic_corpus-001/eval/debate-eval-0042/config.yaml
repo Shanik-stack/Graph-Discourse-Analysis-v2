@@ -1,0 +1,24 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0042
+degree_config:
+- 2
+- 2
+- 3
+- 1
+- 0
+motion:
+  claim: This house believes that cryptocurrencies should be banned to prevent their
+    devastating environmental impact and obstruction of a sustainable energy future.
+  label: Ban Crypto for Sustainability
+split: eval
+tags:
+- Cryptocurrency
+- Energy
+- Sustainability
+- DarkWeb
+- FalseTheories
+- Humans
+- LGBTQ
+- Comics
+topic: Cryptocurrencies are incompatible with a sustainable energy future and should
+  be banned to mitigate climate change.

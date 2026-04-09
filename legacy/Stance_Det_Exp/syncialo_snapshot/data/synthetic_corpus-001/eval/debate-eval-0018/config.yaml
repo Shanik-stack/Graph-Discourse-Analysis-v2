@@ -1,0 +1,25 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0018
+degree_config:
+- 2
+- 2
+- 3
+- 1
+- 0
+motion:
+  claim: Vegetarian movements prioritize animal welfare over the rights and struggles
+    of marginalized human communities, including LGBTQ individuals.
+  label: Compassion in Conflict
+split: eval
+tags:
+- LGBTQ
+- Vegetarian
+- Environment
+- Biden
+- OpenSource
+- Humans
+- CriticalThinking
+- DeathPenalty
+topic: Resolved, that the emphasis on animal welfare in vegetarian movements overshadows
+  the struggles of marginalized human communities, including LGBTQ individuals, and
+  neglects the need for intersectional critical thinking.

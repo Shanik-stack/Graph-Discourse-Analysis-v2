@@ -1,0 +1,23 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0004
+degree_config:
+- 5
+- 5
+- 2
+- 0
+motion:
+  claim: Countries should prioritize education and sustainability over military spending
+    in their national budgets.
+  label: Books Over Bombs
+split: eval
+tags:
+- Sustainability
+- Countries
+- Fandom
+- Education
+- Biden
+- Campaigning
+- Parenting
+- Military
+topic: Countries should prioritize education and sustainability over military spending
+  when allocating their budgets, even if it means compromising national security.

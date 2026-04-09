@@ -1,0 +1,24 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0012
+degree_config:
+- 3
+- 4
+- 2
+- 1
+- 0
+motion:
+  claim: Governments should prioritize space exploration and colonization over social
+    welfare programs to ensure humanity's long-term survival and prosperity.
+  label: Space Over Welfare
+split: eval
+tags:
+- Crypto
+- Learning
+- LGBTQ
+- Biden
+- Health
+- ScienceFiction
+- Crime
+- Conscription
+topic: Should the government prioritize the development of space exploration and colonization
+  over other areas of public spending?

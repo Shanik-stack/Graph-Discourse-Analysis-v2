@@ -1,0 +1,23 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0020
+degree_config:
+- 6
+- 6
+- 1
+- 0
+motion:
+  claim: Standardized testing and charter schools are essential for improving student
+    outcomes in a rapidly changing world.
+  label: Testing for Tomorrow
+split: eval
+tags:
+- Crypto
+- Learning
+- LGBTQ
+- Biden
+- Health
+- ScienceFiction
+- Crime
+- Conscription
+topic: Is the current approach to education, including standardized testing and charter
+  schools, effective in improving student outcomes?

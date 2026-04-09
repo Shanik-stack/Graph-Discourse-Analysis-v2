@@ -1,0 +1,25 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0002
+degree_config:
+- 3
+- 2
+- 2
+- 1
+- 1
+- 0
+motion:
+  claim: Governments should prioritize investment in sustainable energy sources over
+    military spending to effectively combat climate change.
+  label: Energy Over Arms
+split: eval
+tags:
+- DecisionMaking
+- Crypto
+- Vegetarian
+- Military
+- Sustainability
+- Green
+- LGBTQ
+- Policy
+topic: Should governments prioritize sustainable energy sources over military spending
+  to combat climate change?

@@ -1,0 +1,24 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0001
+degree_config:
+- 5
+- 5
+- 2
+- 0
+motion:
+  claim: Governments should provide substantial financial incentives to families with
+    children to counteract declining population growth and mitigate the long-term
+    consequences on societal stability and progress.
+  label: Pay to Populate
+split: eval
+tags:
+- Crypto
+- Learning
+- LGBTQ
+- Biden
+- Health
+- ScienceFiction
+- Crime
+- Conscription
+topic: Should the government provide financial support to families with children to
+  encourage population growth?

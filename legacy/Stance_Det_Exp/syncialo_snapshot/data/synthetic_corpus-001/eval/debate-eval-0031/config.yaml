@@ -1,0 +1,26 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0031
+degree_config:
+- 3
+- 2
+- 2
+- 1
+- 1
+- 0
+motion:
+  claim: Mandatory military conscription should be implemented in the United States
+    to combat rising crime rates and bolster national defense.
+  label: Conscript for Security
+split: eval
+tags:
+- Military
+- America
+- Crypto
+- Crime
+- Currency
+- Biden
+- Advertising
+- Conscription
+topic: Resolved, that the implementation of mandatory military conscription in the
+  United States would be an effective deterrent to rising crime rates and justify
+  increased government spending on defense.

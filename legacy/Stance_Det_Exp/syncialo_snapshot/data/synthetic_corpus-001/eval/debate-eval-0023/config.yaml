@@ -1,0 +1,28 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0023
+degree_config:
+- 4
+- 3
+- 2
+- 1
+- 0
+motion:
+  claim: This house believes that the Biden administration has a moral obligation
+    to prioritize environmentally-driven policies, such as the Green New Deal, over
+    economic considerations and traditional punitive measures.
+  label: Planet Over Profit
+split: eval
+tags:
+- LGBTQ
+- Vegetarian
+- Environment
+- Biden
+- OpenSource
+- Humans
+- CriticalThinking
+- DeathPenalty
+topic: Resolved, that the adoption of environmentally-driven policies, such as the
+  Green New Deal, is a moral imperative that supersedes considerations of economic
+  cost, and that the Biden administration has a critical thinking obligation to prioritize
+  such policies, even if it means re-examining the use of the death penalty as a means
+  of punishment.

@@ -1,0 +1,26 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0013
+degree_config:
+- 3
+- 2
+- 2
+- 1
+- 1
+- 0
+motion:
+  claim: High levels of education correlate with a higher likelihood of atheism due
+    to the irreconcilability of scientific knowledge and traditional religious doctrine.
+  label: Science vs. Sacred Dogma
+split: eval
+tags:
+- Energy
+- Literature
+- Atheism
+- Education
+- Fandom
+- Crypto
+- Humans
+- Transgender
+topic: Resolved, that atheism is more prevalent among highly educated individuals
+  due to the increasing conflict between scientific literacy and traditional religious
+  beliefs.

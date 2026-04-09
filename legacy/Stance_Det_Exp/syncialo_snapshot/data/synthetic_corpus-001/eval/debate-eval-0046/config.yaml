@@ -1,0 +1,24 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0046
+degree_config:
+- 4
+- 3
+- 2
+- 1
+- 0
+motion:
+  claim: Schools should restrict students' access to fan fiction and social media
+    to protect the integrity of education.
+  label: Learning Over Leisure
+split: eval
+tags:
+- Sustainability
+- Countries
+- Fandom
+- Education
+- Biden
+- Campaigning
+- Parenting
+- Military
+topic: 'The influence of fandom on education is detrimental: should schools restrict
+  access to fan fiction and social media?'

@@ -1,0 +1,27 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0024
+degree_config:
+- 3
+- 2
+- 2
+- 1
+- 1
+- 0
+motion:
+  claim: Policy makers should prioritize environmental sustainability over economic
+    growth and implement a 'green tax' on non-vegetarian products to drive eco-friendly
+    decision-making.
+  label: Taxing for Tomorrow
+split: eval
+tags:
+- DecisionMaking
+- Crypto
+- Vegetarian
+- Military
+- Sustainability
+- Green
+- LGBTQ
+- Policy
+topic: Should policy makers prioritize environmental sustainability over economic
+  growth, and can a 'green tax' on non-vegetarian products be an effective decision-making
+  tool in this regard?

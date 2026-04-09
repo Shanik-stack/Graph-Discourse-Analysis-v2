@@ -1,0 +1,24 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0005
+degree_config:
+- 5
+- 5
+- 2
+- 0
+motion:
+  claim: Implementing open-source energy infrastructure poses a significant threat
+    to national security and human safety, and therefore, censorship of related information
+    is justified.
+  label: Securing Energy, Silencing Risk
+split: eval
+tags:
+- Energy
+- OpenSource
+- Protest
+- Humans
+- Censorship
+- Military
+- Nature
+- Parliament
+topic: Open-source energy infrastructure is a national security threat and should
+  be censored to protect human safety.

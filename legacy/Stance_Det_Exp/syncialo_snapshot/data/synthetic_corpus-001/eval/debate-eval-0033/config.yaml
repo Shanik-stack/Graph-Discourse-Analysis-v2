@@ -1,0 +1,26 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0033
+degree_config:
+- 3
+- 2
+- 2
+- 1
+- 1
+- 0
+motion:
+  claim: Modern education systems are failing to equip students with the skills and
+    values necessary to address the social, environmental, and technological challenges
+    of the 21st century.
+  label: Failing the Future
+split: eval
+tags:
+- LGBTQ
+- Antinatalism
+- Energy
+- Referendum
+- Humans
+- DeathPenalty
+- Conscription
+- Blockchain
+topic: This house believes that the current education system is not adequately preparing
+  students for the challenges of the 21st century.

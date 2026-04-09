@@ -1,0 +1,24 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0037
+degree_config:
+- 3
+- 4
+- 2
+- 1
+- 0
+motion:
+  claim: Comics publishers have a moral obligation to implement rigorous diversity
+    and representation standards for LGBTQ characters to promote societal acceptance.
+  label: Drawing Inclusive Lines
+split: eval
+tags:
+- Cryptocurrency
+- Energy
+- Sustainability
+- DarkWeb
+- FalseTheories
+- Humans
+- LGBTQ
+- Comics
+topic: The portrayal of LGBTQ characters in comics has a significant impact on societal
+  acceptance and should be subject to stricter diversity and representation standards.

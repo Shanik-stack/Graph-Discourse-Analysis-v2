@@ -1,0 +1,23 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0028
+degree_config:
+- 5
+- 5
+- 2
+- 0
+motion:
+  claim: Social media's proliferation has irreparably harmed the mental well-being
+    of young adults.
+  label: Social Media's Toxic Toll
+split: eval
+tags:
+- LGBTQ
+- Antinatalism
+- Energy
+- Referendum
+- Humans
+- DeathPenalty
+- Conscription
+- Blockchain
+topic: This house believes that the rise of social media has had a net negative impact
+  on the mental health of young adults.

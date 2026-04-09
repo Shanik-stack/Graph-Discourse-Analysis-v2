@@ -1,0 +1,27 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0036
+degree_config:
+- 2
+- 2
+- 3
+- 1
+- 0
+motion:
+  claim: Futuristic energy systems in science fiction literature should be integrated
+    into educational curricula to promote sustainable energy solutions and environmental
+    awareness.
+  label: Fueling Future Minds
+split: eval
+tags:
+- Energy
+- Literature
+- Atheism
+- Education
+- Fandom
+- Crypto
+- Humans
+- Transgender
+topic: Resolved, that the depiction of futuristic energy systems in science fiction
+  literature has a profound impact on shaping human perceptions of sustainable energy
+  solutions and should be prioritized in educational settings to promote environmental
+  awareness.

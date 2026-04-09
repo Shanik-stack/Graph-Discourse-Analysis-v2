@@ -1,0 +1,23 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0010
+degree_config:
+- 6
+- 6
+- 1
+- 0
+motion:
+  claim: This house believes that the Biden administration should prioritize the development
+    of a cryptocurrency-based payment system for the US military.
+  label: Coins for Command
+split: eval
+tags:
+- Military
+- America
+- Crypto
+- Crime
+- Currency
+- Biden
+- Advertising
+- Conscription
+topic: Should the Biden administration prioritize the development of a cryptocurrency-based
+  payment system for the US military to reduce the risk of financial crimes and corruption?

@@ -1,0 +1,25 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0030
+degree_config:
+- 5
+- 5
+- 2
+- 0
+motion:
+  claim: Prioritizing the representation of transgender characters in educational
+    curricula through popular fandom literature is crucial for fostering societal
+    acceptance.
+  label: Lit for Inclusion
+split: eval
+tags:
+- Energy
+- Literature
+- Atheism
+- Education
+- Fandom
+- Crypto
+- Humans
+- Transgender
+topic: Resolved, that the representation of transgender characters in popular fandom
+  literature has a significant impact on societal acceptance and should be prioritized
+  in educational curricula.

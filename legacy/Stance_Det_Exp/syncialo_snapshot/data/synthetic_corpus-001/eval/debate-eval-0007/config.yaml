@@ -1,0 +1,24 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0007
+degree_config:
+- 3
+- 4
+- 2
+- 1
+- 0
+motion:
+  claim: Nations with significant military capabilities should redirect a substantial
+    portion of their defense budgets towards sustainability initiatives.
+  label: Arms to Renewal
+split: eval
+tags:
+- Sustainability
+- Countries
+- Fandom
+- Education
+- Biden
+- Campaigning
+- Parenting
+- Military
+topic: Countries with strong military presence should prioritize sustainability initiatives
+  over defense spending.

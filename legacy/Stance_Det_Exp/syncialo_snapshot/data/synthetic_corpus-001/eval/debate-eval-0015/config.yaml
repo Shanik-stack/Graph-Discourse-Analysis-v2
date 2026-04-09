@@ -1,0 +1,26 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0015
+degree_config:
+- 4
+- 3
+- 2
+- 1
+- 0
+motion:
+  claim: Implementing stricter environmental regulations on cryptocurrency mining
+    is necessary to protect marginalized communities, including LGBTQ individuals,
+    from disproportionate harm.
+  label: Protecting the Margins
+split: eval
+tags:
+- Cryptocurrency
+- Energy
+- Sustainability
+- DarkWeb
+- FalseTheories
+- Humans
+- LGBTQ
+- Comics
+topic: The energy consumption required to mine cryptocurrencies disproportionately
+  harms marginalized communities, including LGBTQ individuals, and should be addressed
+  through stricter environmental regulations.

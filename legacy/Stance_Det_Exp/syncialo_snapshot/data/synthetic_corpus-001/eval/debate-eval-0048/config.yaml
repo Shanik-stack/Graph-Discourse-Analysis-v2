@@ -1,0 +1,26 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0048
+degree_config:
+- 4
+- 3
+- 2
+- 1
+- 0
+motion:
+  claim: Blockchain technology should be integrated into educational institutions
+    to promote energy equity and information access, despite the potential risks to
+    human data security and fandom communities.
+  label: Blockchain in Schools
+split: eval
+tags:
+- Energy
+- Literature
+- Atheism
+- Education
+- Fandom
+- Crypto
+- Humans
+- Transgender
+topic: Resolved, that the integration of blockchain technology in education can democratize
+  access to energy and information, but also poses significant risks to human data
+  security and fandom communities.

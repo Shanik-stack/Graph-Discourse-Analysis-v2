@@ -1,0 +1,25 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0009
+degree_config:
+- 3
+- 2
+- 2
+- 1
+- 1
+- 0
+motion:
+  claim: Parents who prioritize individual freedom over sustainability awareness are
+    failing their children and society.
+  label: Freedom's Fatal Flaw
+split: eval
+tags:
+- Sustainability
+- Countries
+- Fandom
+- Education
+- Biden
+- Campaigning
+- Parenting
+- Military
+topic: Parenting styles that emphasize individual freedom over sustainability awareness
+  are irresponsible and should be addressed through education.

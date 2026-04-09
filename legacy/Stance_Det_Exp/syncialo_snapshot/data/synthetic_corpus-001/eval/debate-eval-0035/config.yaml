@@ -1,0 +1,23 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0035
+degree_config:
+- 5
+- 5
+- 2
+- 0
+motion:
+  claim: Implementing universal basic income is a necessary step towards achieving
+    social equity for marginalized groups, including the LGBTQ community.
+  label: Basic Income for Equity
+split: eval
+tags:
+- LGBTQ
+- Antinatalism
+- Energy
+- Referendum
+- Humans
+- DeathPenalty
+- Conscription
+- Blockchain
+topic: This house believes that the implementation of universal basic income would
+  lead to a more equitable society.

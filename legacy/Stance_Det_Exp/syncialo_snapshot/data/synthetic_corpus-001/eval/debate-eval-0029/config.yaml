@@ -1,0 +1,25 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0029
+degree_config:
+- 3
+- 4
+- 2
+- 1
+- 0
+motion:
+  claim: Governments should implement universal basic income to safeguard the welfare
+    of marginalized communities, including low-income families, LGBTQ individuals,
+    and those struggling with mental health issues.
+  label: Basic Income for All
+split: eval
+tags:
+- Crypto
+- Learning
+- LGBTQ
+- Biden
+- Health
+- ScienceFiction
+- Crime
+- Conscription
+topic: Should the government provide universal basic income to ensure a minimum standard
+  of living?

@@ -1,0 +1,4312 @@
+{
+  "debate_id": "node_link_data-debate-eval-0002",
+  "status": "ok",
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "size": 10,
+      "keywords": [
+        {
+          "term": "governments",
+          "tfidf": 0.3376118994574212
+        },
+        {
+          "term": "obligation",
+          "tfidf": 0.19349435020887584
+        },
+        {
+          "term": "safety",
+          "tfidf": 0.19349435020887584
+        },
+        {
+          "term": "citizens",
+          "tfidf": 0.1929210854042407
+        },
+        {
+          "term": "prioritize",
+          "tfidf": 0.180714680284314
+        },
+        {
+          "term": "harm",
+          "tfidf": 0.180714680284314
+        },
+        {
+          "term": "threats",
+          "tfidf": 0.14469081405318052
+        },
+        {
+          "term": "young",
+          "tfidf": 0.1410041888829617
+        },
+        {
+          "term": "fulfill",
+          "tfidf": 0.1410041888829617
+        },
+        {
+          "term": "elderly",
+          "tfidf": 0.1410041888829617
+        }
+      ],
+      "nodes": [
+        "10259f72-92b0-4aac-b1de-982ddcb3101a",
+        "26306ec6-b557-4d00-8fda-7333a5b90ba1",
+        "34f2b370-3a1c-407a-b1dc-cd3ecc769fcf",
+        "545cddc4-6d94-407f-bd32-a41ed32bbbaa",
+        "699b74ee-7814-49cd-8911-f4a54b45bbb0",
+        "b603175e-8e08-412e-b6fd-2c122367fbbd",
+        "d280ab6f-60ee-4f74-a0a0-780d821d51b9",
+        "e1db7cba-a345-409c-b0a9-2abcf98ecaaa",
+        "e26b922f-a1ad-48c2-a7a2-810792316f06",
+        "fa999a64-f4ab-451f-94f0-1965138977f1"
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "size": 6,
+      "keywords": [
+        {
+          "term": "supply",
+          "tfidf": 0.208642110388318
+        },
+        {
+          "term": "ventilators",
+          "tfidf": 0.18876150993379265
+        },
+        {
+          "term": "dialysis",
+          "tfidf": 0.18876150993379265
+        },
+        {
+          "term": "machines",
+          "tfidf": 0.18876150993379265
+        },
+        {
+          "term": "saving",
+          "tfidf": 0.17268652796029993
+        },
+        {
+          "term": "investors",
+          "tfidf": 0.17268652796029993
+        },
+        {
+          "term": "market",
+          "tfidf": 0.1674215656003826
+        },
+        {
+          "term": "equipment",
+          "tfidf": 0.1612811467418357
+        },
+        {
+          "term": "agreements",
+          "tfidf": 0.1612811467418357
+        },
+        {
+          "term": "prioritize",
+          "tfidf": 0.1612811467418357
+        }
+      ],
+      "nodes": [
+        "1016af84-281e-4bda-acb9-01fd9ed74922",
+        "49c63202-a06f-4761-a287-95b5ee8f6665",
+        "70cd1cd4-a640-4742-9770-8aadca5d26e8",
+        "86c43a9d-a5c0-4e40-a60c-d117ee1529c7",
+        "c245cee5-45ff-435a-9ca1-f83f3da9f656",
+        "ed6d9956-b08a-4051-95e2-bf6c94684d7c"
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "size": 6,
+      "keywords": [
+        {
+          "term": "emissions",
+          "tfidf": 0.21787016950624652
+        },
+        {
+          "term": "ipcc",
+          "tfidf": 0.21231898330277166
+        },
+        {
+          "term": "resources",
+          "tfidf": 0.18370085049605397
+        },
+        {
+          "term": "interests",
+          "tfidf": 0.18140906540820897
+        },
+        {
+          "term": "energy",
+          "tfidf": 0.15100700631066652
+        },
+        {
+          "term": "greenhouse",
+          "tfidf": 0.15049914751364632
+        },
+        {
+          "term": "gas",
+          "tfidf": 0.15049914751364632
+        },
+        {
+          "term": "government",
+          "tfidf": 0.12884861333581457
+        },
+        {
+          "term": "change",
+          "tfidf": 0.1168857603772105
+        },
+        {
+          "term": "fossil",
+          "tfidf": 0.10746273029238576
+        }
+      ],
+      "nodes": [
+        "1ead69dd-31c8-4d72-b451-cb2f10732335",
+        "70dbe6de-90a9-4a71-98b4-687ac673773c",
+        "7db64ee6-6a09-49fc-8bdd-ec9112b0201f",
+        "a2b6f50b-1dd6-4e82-9804-c0a85fc4afdb",
+        "b602ad47-7361-46fc-8fa6-6b289f0080e9",
+        "f3fd0dd9-00dc-447c-8b7e-362cdb33165f"
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "size": 5,
+      "keywords": [
+        {
+          "term": "market",
+          "tfidf": 0.2659342808373788
+        },
+        {
+          "term": "businesses",
+          "tfidf": 0.2594779768671978
+        },
+        {
+          "term": "primary",
+          "tfidf": 0.2307525862660962
+        },
+        {
+          "term": "maximize",
+          "tfidf": 0.22487316469957572
+        },
+        {
+          "term": "rivals",
+          "tfidf": 0.22487316469957572
+        },
+        {
+          "term": "profits",
+          "tfidf": 0.20572290429884135
+        },
+        {
+          "term": "stay",
+          "tfidf": 0.20572290429884135
+        },
+        {
+          "term": "ahead",
+          "tfidf": 0.20572290429884135
+        },
+        {
+          "term": "goal",
+          "tfidf": 0.20572290429884135
+        },
+        {
+          "term": "management",
+          "tfidf": 0.1657047268060655
+        }
+      ],
+      "nodes": [
+        "270d61f9-b7f3-4197-919d-f960665111fb",
+        "2ac9535f-ba94-45d2-a4ca-67e7678820b6",
+        "7bf665d6-6dd4-47f8-ba56-cec03463db7c",
+        "7d8626a1-0eb2-4111-b46a-dbf473fac684",
+        "9a76f36e-4508-4ec9-b20d-5a5fad5e4ae4"
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "size": 5,
+      "keywords": [
+        {
+          "term": "south",
+          "tfidf": 0.33351867244235717
+        },
+        {
+          "term": "energy",
+          "tfidf": 0.31232790478806344
+        },
+        {
+          "term": "renewable",
+          "tfidf": 0.2814434128292256
+        },
+        {
+          "term": "korea",
+          "tfidf": 0.25013900433176783
+        },
+        {
+          "term": "successful",
+          "tfidf": 0.23641821292644222
+        },
+        {
+          "term": "credits",
+          "tfidf": 0.19517311686190697
+        },
+        {
+          "term": "installed",
+          "tfidf": 0.19517311686190697
+        },
+        {
+          "term": "transition",
+          "tfidf": 0.19379754196534962
+        },
+        {
+          "term": "capacity",
+          "tfidf": 0.17855212068336415
+        },
+        {
+          "term": "incentives",
+          "tfidf": 0.17855212068336415
+        }
+      ],
+      "nodes": [
+        "03f21fdb-5af2-43ff-ae2b-aac43a7721d5",
+        "13969f02-5099-4395-bd04-a9819c257296",
+        "371672c0-0729-47e6-9f1f-898b5182157a",
+        "64692186-a73f-4cde-a11c-f05f37ffb0a1",
+        "e1ce3b23-3403-4118-92af-153243486745"
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "size": 4,
+      "keywords": [
+        {
+          "term": "health",
+          "tfidf": 0.29991600475638336
+        },
+        {
+          "term": "fossil",
+          "tfidf": 0.26310906490759656
+        },
+        {
+          "term": "public",
+          "tfidf": 0.23778353866141966
+        },
+        {
+          "term": "pollution",
+          "tfidf": 0.23778353866141966
+        },
+        {
+          "term": "taxes",
+          "tfidf": 0.20989710290569197
+        },
+        {
+          "term": "air",
+          "tfidf": 0.20989710290569197
+        },
+        {
+          "term": "implementing",
+          "tfidf": 0.19994400317092223
+        },
+        {
+          "term": "consumption",
+          "tfidf": 0.19994400317092223
+        },
+        {
+          "term": "fuel",
+          "tfidf": 0.1842391769870731
+        },
+        {
+          "term": "fuels",
+          "tfidf": 0.13996975837377645
+        }
+      ],
+      "nodes": [
+        "174ffeee-c4da-40bf-98f9-45fac4cfd34b",
+        "4caa6630-d35e-435b-824c-3e24bffdd382",
+        "e2caab18-c716-4506-ab69-df313dcf06c1",
+        "fa092940-9d1e-4107-a6cd-7ee02a9a857a"
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "size": 4,
+      "keywords": [
+        {
+          "term": "energy",
+          "tfidf": 0.30762930083887463
+        },
+        {
+          "term": "smart",
+          "tfidf": 0.24637595884149402
+        },
+        {
+          "term": "distribution",
+          "tfidf": 0.24637595884149402
+        },
+        {
+          "term": "efficient",
+          "tfidf": 0.2043964654691627
+        },
+        {
+          "term": "sources",
+          "tfidf": 0.19278693224579266
+        },
+        {
+          "term": "transition",
+          "tfidf": 0.19088208714347144
+        },
+        {
+          "term": "reliable",
+          "tfidf": 0.19088208714347144
+        },
+        {
+          "term": "nations",
+          "tfidf": 0.17984003604707657
+        },
+        {
+          "term": "renewable",
+          "tfidf": 0.1663256577213853
+        },
+        {
+          "term": "retrofitted",
+          "tfidf": 0.14417772610691268
+        }
+      ],
+      "nodes": [
+        "18ac080e-3812-40aa-a438-9441515cfbe2",
+        "63472342-8c60-4b8d-bd0a-3471cef4668e",
+        "9dacf2f8-6f35-4772-8a0b-d981c2dcbe5e",
+        "fe977411-1ca3-452c-87e4-2a2452abb97c"
+      ]
+    },
+    {
+      "cluster_id": 7,
+      "size": 4,
+      "keywords": [
+        {
+          "term": "cyber",
+          "tfidf": 0.3279871190344267
+        },
+        {
+          "term": "traditional",
+          "tfidf": 0.3279871190344267
+        },
+        {
+          "term": "capabilities",
+          "tfidf": 0.25823559965759346
+        },
+        {
+          "term": "military",
+          "tfidf": 0.24584460253568796
+        },
+        {
+          "term": "threats",
+          "tfidf": 0.21875809141760605
+        },
+        {
+          "term": "conventional",
+          "tfidf": 0.2131842815576881
+        },
+        {
+          "term": "bypassing",
+          "tfidf": 0.2131842815576881
+        },
+        {
+          "term": "bypass",
+          "tfidf": 0.2131842815576881
+        },
+        {
+          "term": "modern",
+          "tfidf": 0.18214839142268927
+        },
+        {
+          "term": "critical",
+          "tfidf": 0.16399355951721334
+        }
+      ],
+      "nodes": [
+        "35505fd4-e1ed-48f6-80a5-1662d4c2202a",
+        "647b1b9f-14c9-477b-867b-ee96ac1163ee",
+        "6f99ad5a-2f18-4896-ba52-7e0a0cc450a9",
+        "bddd5042-d62f-40ce-8d6d-1b01e6705769"
+      ]
+    },
+    {
+      "cluster_id": 8,
+      "size": 4,
+      "keywords": [
+        {
+          "term": "spread",
+          "tfidf": 0.2521554541214289
+        },
+        {
+          "term": "environmental",
+          "tfidf": 0.21746805565576888
+        },
+        {
+          "term": "country",
+          "tfidf": 0.21746805565576888
+        },
+        {
+          "term": "livelihoods",
+          "tfidf": 0.1475598519093849
+        },
+        {
+          "term": "occurs",
+          "tfidf": 0.1475598519093849
+        },
+        {
+          "term": "warning",
+          "tfidf": 0.1475598519093849
+        },
+        {
+          "term": "adverse",
+          "tfidf": 0.1475598519093849
+        },
+        {
+          "term": "vacuum",
+          "tfidf": 0.1475598519093849
+        },
+        {
+          "term": "neighboring",
+          "tfidf": 0.1475598519093849
+        },
+        {
+          "term": "incremental",
+          "tfidf": 0.1475598519093849
+        }
+      ],
+      "nodes": [
+        "328454e1-0402-490f-9585-f7c6f6b2f6e8",
+        "3ec8fd65-543f-4c0e-a253-3e6d4872d33e",
+        "879f5734-dcbb-46d7-8f0f-9a4fe9b13ee8",
+        "ef0237bc-65d3-4933-bf81-b82bbacb6cce"
+      ]
+    },
+    {
+      "cluster_id": 9,
+      "size": 4,
+      "keywords": [
+        {
+          "term": "government",
+          "tfidf": 0.32897281172216103
+        },
+        {
+          "term": "funding",
+          "tfidf": 0.25020267360051
+        },
+        {
+          "term": "uk",
+          "tfidf": 0.2168348455161488
+        },
+        {
+          "term": "computing",
+          "tfidf": 0.2168348455161488
+        },
+        {
+          "term": "fields",
+          "tfidf": 0.2168348455161488
+        },
+        {
+          "term": "code",
+          "tfidf": 0.2168348455161488
+        },
+        {
+          "term": "storage",
+          "tfidf": 0.18526749733406633
+        },
+        {
+          "term": "investment",
+          "tfidf": 0.17145958024366487
+        },
+        {
+          "term": "crucial",
+          "tfidf": 0.1483360674666136
+        },
+        {
+          "term": "related",
+          "tfidf": 0.1483360674666136
+        }
+      ],
+      "nodes": [
+        "16dc273c-adb3-432d-8f76-c97e9eed673f",
+        "212408b7-542a-4d43-9f5f-dd996d9f123e",
+        "5dd71b9f-129b-4e16-9ac3-02728d28b9d1",
+        "a4bae4f6-996c-4cf4-a550-2f1791ca7eae"
+      ]
+    },
+    {
+      "cluster_id": 10,
+      "size": 4,
+      "keywords": [
+        {
+          "term": "dollar",
+          "tfidf": 0.2520862556436766
+        },
+        {
+          "term": "healthcare",
+          "tfidf": 0.25030955847038744
+        },
+        {
+          "term": "education",
+          "tfidf": 0.1857575321573185
+        },
+        {
+          "term": "military",
+          "tfidf": 0.17442386897551598
+        },
+        {
+          "term": "resources",
+          "tfidf": 0.14540530428869589
+        },
+        {
+          "term": "spending",
+          "tfidf": 0.1419882510787867
+        },
+        {
+          "term": "significant",
+          "tfidf": 0.13288947624316214
+        },
+        {
+          "term": "diverts",
+          "tfidf": 0.1260431278218383
+        },
+        {
+          "term": "pollutants",
+          "tfidf": 0.1260431278218383
+        },
+        {
+          "term": "impactful",
+          "tfidf": 0.1260431278218383
+        }
+      ],
+      "nodes": [
+        "4e1bd045-089f-4e7b-9f13-9f7970bdaf05",
+        "6873e8a6-aff0-4df0-a1e2-c7831977d246",
+        "9c2dfb39-057b-4a31-8f50-8ae7c1cf1b0e",
+        "e5f65f4b-6c00-4ee1-b2c3-d1011de236a0"
+      ]
+    },
+    {
+      "cluster_id": 11,
+      "size": 4,
+      "keywords": [
+        {
+          "term": "favorable",
+          "tfidf": 0.23791852273322803
+        },
+        {
+          "term": "economy",
+          "tfidf": 0.17366660247941695
+        },
+        {
+          "term": "community",
+          "tfidf": 0.139228485472729
+        },
+        {
+          "term": "relations",
+          "tfidf": 0.139228485472729
+        },
+        {
+          "term": "secure",
+          "tfidf": 0.139228485472729
+        },
+        {
+          "term": "attracting",
+          "tfidf": 0.139228485472729
+        },
+        {
+          "term": "minimize",
+          "tfidf": 0.139228485472729
+        },
+        {
+          "term": "manner",
+          "tfidf": 0.139228485472729
+        },
+        {
+          "term": "policy",
+          "tfidf": 0.139228485472729
+        },
+        {
+          "term": "exercising",
+          "tfidf": 0.139228485472729
+        }
+      ],
+      "nodes": [
+        "4e722983-9e96-4c68-8817-cb1f6458b3d9",
+        "647825b5-03a6-460f-bff5-6cce2d281496",
+        "660be3ae-a894-4282-9f2f-e4a727917de3",
+        "b5bed01e-16b3-48bd-badc-9d5b4eeadcbb"
+      ]
+    },
+    {
+      "cluster_id": 12,
+      "size": 4,
+      "keywords": [
+        {
+          "term": "trauma",
+          "tfidf": 0.2526253802658555
+        },
+        {
+          "term": "childhood",
+          "tfidf": 0.2526253802658555
+        },
+        {
+          "term": "long",
+          "tfidf": 0.18615480276251467
+        },
+        {
+          "term": "education",
+          "tfidf": 0.18615480276251467
+        },
+        {
+          "term": "benefits",
+          "tfidf": 0.17906973638859577
+        },
+        {
+          "term": "stability",
+          "tfidf": 0.14937698082388481
+        },
+        {
+          "term": "infrastructure",
+          "tfidf": 0.1457162755454877
+        },
+        {
+          "term": "alter",
+          "tfidf": 0.12631269013292776
+        },
+        {
+          "term": "deep",
+          "tfidf": 0.12631269013292776
+        },
+        {
+          "term": "drawbacks",
+          "tfidf": 0.12631269013292776
+        }
+      ],
+      "nodes": [
+        "0cb1b295-57cd-49b3-bf66-88a6d04f3312",
+        "1033655f-63fd-4d22-b45b-c5d60a5655a6",
+        "5e831148-999a-4f9b-96ca-41a41e67ccdb",
+        "a0de31da-5b9d-4e49-a4af-a6140e71f351"
+      ]
+    },
+    {
+      "cluster_id": 13,
+      "size": 4,
+      "keywords": [
+        {
+          "term": "independence",
+          "tfidf": 0.504076499823026
+        },
+        {
+          "term": "energy",
+          "tfidf": 0.3136987411819225
+        },
+        {
+          "term": "nation",
+          "tfidf": 0.24099513042554718
+        },
+        {
+          "term": "disruptions",
+          "tfidf": 0.2153459038486801
+        },
+        {
+          "term": "allowing",
+          "tfidf": 0.20353360678372454
+        },
+        {
+          "term": "vulnerable",
+          "tfidf": 0.19388225733843936
+        },
+        {
+          "term": "supply",
+          "tfidf": 0.18572215765301106
+        },
+        {
+          "term": "make",
+          "tfidf": 0.18572215765301106
+        },
+        {
+          "term": "economic",
+          "tfidf": 0.14637529542674851
+        },
+        {
+          "term": "destiny",
+          "tfidf": 0.1260191249557565
+        }
+      ],
+      "nodes": [
+        "5b3a916f-d974-482d-a2d0-19bc2918bb01",
+        "6e49315e-deaa-429a-85ac-3626e6df76d4",
+        "83132a97-cfd6-4ee7-adbf-4e9ddf2f63ba",
+        "bc1fb086-c0a0-4935-8a4a-30648891462e"
+      ]
+    },
+    {
+      "cluster_id": 14,
+      "size": 4,
+      "keywords": [
+        {
+          "term": "productivity",
+          "tfidf": 0.22723103290149055
+        },
+        {
+          "term": "contributing",
+          "tfidf": 0.22723103290149055
+        },
+        {
+          "term": "burden",
+          "tfidf": 0.2147668048152429
+        },
+        {
+          "term": "damage",
+          "tfidf": 0.2147668048152429
+        },
+        {
+          "term": "loss",
+          "tfidf": 0.2147668048152429
+        },
+        {
+          "term": "substantial",
+          "tfidf": 0.19597232620612873
+        },
+        {
+          "term": "ultimately",
+          "tfidf": 0.18193454497960637
+        },
+        {
+          "term": "increased",
+          "tfidf": 0.17604937603473
+        },
+        {
+          "term": "healthcare",
+          "tfidf": 0.17604937603473
+        },
+        {
+          "term": "lead",
+          "tfidf": 0.15725489742561582
+        }
+      ],
+      "nodes": [
+        "1734af1a-9632-468e-b0f6-e6db66a2ae73",
+        "764e85f6-1692-4d99-941a-50f48d57c2ce",
+        "deae0416-beb3-4014-9f9b-dc28445505fd",
+        "ec4ec7c9-282b-4394-8bba-393a9d4d5d2b"
+      ]
+    },
+    {
+      "cluster_id": 15,
+      "size": 3,
+      "keywords": [
+        {
+          "term": "compounding",
+          "tfidf": 0.3240532607141698
+        },
+        {
+          "term": "effect",
+          "tfidf": 0.3120389461742191
+        },
+        {
+          "term": "consumption",
+          "tfidf": 0.24928032831208408
+        },
+        {
+          "term": "energy",
+          "tfidf": 0.2304754479531172
+        },
+        {
+          "term": "fertile",
+          "tfidf": 0.1620266303570849
+        },
+        {
+          "term": "framework",
+          "tfidf": 0.1620266303570849
+        },
+        {
+          "term": "studies",
+          "tfidf": 0.1620266303570849
+        },
+        {
+          "term": "unit",
+          "tfidf": 0.1620266303570849
+        },
+        {
+          "term": "reductions",
+          "tfidf": 0.1620266303570849
+        },
+        {
+          "term": "structure",
+          "tfidf": 0.1620266303570849
+        }
+      ],
+      "nodes": [
+        "9ba36d8f-431a-41dd-a79f-f3aa1830fa58",
+        "ba05b616-e3dc-4b4e-acf3-f33be43d3023",
+        "e06f476c-968e-4f6c-844d-642c6d009f41"
+      ]
+    },
+    {
+      "cluster_id": 16,
+      "size": 3,
+      "keywords": [
+        {
+          "term": "korea",
+          "tfidf": 0.24835758192540722
+        },
+        {
+          "term": "south",
+          "tfidf": 0.24835758192540722
+        },
+        {
+          "term": "subsidies",
+          "tfidf": 0.24835758192540722
+        },
+        {
+          "term": "effectiveness",
+          "tfidf": 0.2347345062893905
+        },
+        {
+          "term": "allowing",
+          "tfidf": 0.2347345062893905
+        },
+        {
+          "term": "companies",
+          "tfidf": 0.2060404438676579
+        },
+        {
+          "term": "government",
+          "tfidf": 0.17639983961395028
+        },
+        {
+          "term": "market",
+          "tfidf": 0.17187549416934284
+        },
+        {
+          "term": "undercut",
+          "tfidf": 0.14533735999157826
+        },
+        {
+          "term": "perceived",
+          "tfidf": 0.14533735999157826
+        }
+      ],
+      "nodes": [
+        "8c464a8a-1e06-4ce3-9d53-7474efd18839",
+        "be155a40-ef72-4c8b-8de1-37d72b49d411",
+        "c180f6d7-b8a4-4aa8-99d9-6ca15b449433"
+      ]
+    },
+    {
+      "cluster_id": 17,
+      "size": 3,
+      "keywords": [
+        {
+          "term": "researching",
+          "tfidf": 0.2809453195232038
+        },
+        {
+          "term": "technologies",
+          "tfidf": 0.2736582810001014
+        },
+        {
+          "term": "developing",
+          "tfidf": 0.24004461142712022
+        },
+        {
+          "term": "based",
+          "tfidf": 0.24004461142712022
+        },
+        {
+          "term": "ecosystems",
+          "tfidf": 0.21611923093796917
+        },
+        {
+          "term": "maintaining",
+          "tfidf": 0.2070232234301059
+        },
+        {
+          "term": "fuel",
+          "tfidf": 0.19914390333103668
+        },
+        {
+          "term": "existing",
+          "tfidf": 0.1921938504488181
+        },
+        {
+          "term": "cost",
+          "tfidf": 0.18597681629412038
+        },
+        {
+          "term": "new",
+          "tfidf": 0.1752185228418856
+        }
+      ],
+      "nodes": [
+        "07457453-0f12-4569-b47a-394ae690cb51",
+        "088d9dac-5531-4b5e-be0e-6758a4f0f723",
+        "4b9c2910-0e08-4f7b-9a64-be358d341ff5"
+      ]
+    },
+    {
+      "cluster_id": 18,
+      "size": 3,
+      "keywords": [
+        {
+          "term": "mix",
+          "tfidf": 0.36000796586510503
+        },
+        {
+          "term": "diverse",
+          "tfidf": 0.32934958872230113
+        },
+        {
+          "term": "energy",
+          "tfidf": 0.25604740719654934
+        },
+        {
+          "term": "power",
+          "tfidf": 0.1897813504549155
+        },
+        {
+          "term": "decentralized",
+          "tfidf": 0.18000398293255251
+        },
+        {
+          "term": "withstand",
+          "tfidf": 0.18000398293255251
+        },
+        {
+          "term": "prioritized",
+          "tfidf": 0.18000398293255251
+        },
+        {
+          "term": "insecurity",
+          "tfidf": 0.18000398293255251
+        },
+        {
+          "term": "prosperity",
+          "tfidf": 0.16467479436115057
+        },
+        {
+          "term": "single",
+          "tfidf": 0.16467479436115057
+        }
+      ],
+      "nodes": [
+        "12301baf-e114-4745-b3ec-daed69f11343",
+        "25929225-f8b3-47b1-bf38-4bf0bdf450ce",
+        "db992d8a-f3bb-4809-af47-84b33645d87f"
+      ]
+    },
+    {
+      "cluster_id": 19,
+      "size": 3,
+      "keywords": [
+        {
+          "term": "moral",
+          "tfidf": 0.36241455780953985
+        },
+        {
+          "term": "environmental",
+          "tfidf": 0.29191599008895125
+        },
+        {
+          "term": "varying",
+          "tfidf": 0.26410058334079095
+        },
+        {
+          "term": "dependent",
+          "tfidf": 0.2416097052063599
+        },
+        {
+          "term": "subject",
+          "tfidf": 0.2416097052063599
+        },
+        {
+          "term": "obligations",
+          "tfidf": 0.2416097052063599
+        },
+        {
+          "term": "factors",
+          "tfidf": 0.22565217321757147
+        },
+        {
+          "term": "tolerant",
+          "tfidf": 0.13205029167039548
+        },
+        {
+          "term": "mindset",
+          "tfidf": 0.13205029167039548
+        },
+        {
+          "term": "entrepreneur",
+          "tfidf": 0.13205029167039548
+        }
+      ],
+      "nodes": [
+        "1815733d-95b4-4041-95e3-2308b3cb85b0",
+        "284b3490-d93c-40de-b9dd-126e404c6be5",
+        "b43f899d-846a-4d7b-bec7-48f4a3b1a4bb"
+      ]
+    },
+    {
+      "cluster_id": 20,
+      "size": 3,
+      "keywords": [
+        {
+          "term": "fuel",
+          "tfidf": 0.30659297453805623
+        },
+        {
+          "term": "deterrence",
+          "tfidf": 0.26379753972198383
+        },
+        {
+          "term": "fossil",
+          "tfidf": 0.21892029740125915
+        },
+        {
+          "term": "nuclear",
+          "tfidf": 0.19726199099041805
+        },
+        {
+          "term": "investment",
+          "tfidf": 0.15200824609905564
+        },
+        {
+          "term": "combination",
+          "tfidf": 0.14417691554430054
+        },
+        {
+          "term": "deter",
+          "tfidf": 0.14417691554430054
+        },
+        {
+          "term": "sunk",
+          "tfidf": 0.14417691554430054
+        },
+        {
+          "term": "feasibility",
+          "tfidf": 0.14417691554430054
+        },
+        {
+          "term": "unviable",
+          "tfidf": 0.14417691554430054
+        }
+      ],
+      "nodes": [
+        "4432403f-3298-4cb5-9311-52b64868eb0a",
+        "90419826-ad44-4c27-bce0-5fe45fed0aed",
+        "fdd6dbd7-d92b-46c4-9ccf-e905b4afef9b"
+      ]
+    },
+    {
+      "cluster_id": 21,
+      "size": 3,
+      "keywords": [
+        {
+          "term": "organizations",
+          "tfidf": 0.2577128196053718
+        },
+        {
+          "term": "emissions",
+          "tfidf": 0.23925247752071835
+        },
+        {
+          "term": "governments",
+          "tfidf": 0.23925247752071835
+        },
+        {
+          "term": "stricter",
+          "tfidf": 0.17486736330743433
+        },
+        {
+          "term": "significance",
+          "tfidf": 0.17486736330743433
+        },
+        {
+          "term": "structures",
+          "tfidf": 0.17486736330743433
+        },
+        {
+          "term": "legislation",
+          "tfidf": 0.17486736330743433
+        },
+        {
+          "term": "entrenched",
+          "tfidf": 0.17486736330743433
+        },
+        {
+          "term": "undertake",
+          "tfidf": 0.17486736330743433
+        },
+        {
+          "term": "agile",
+          "tfidf": 0.17486736330743433
+        }
+      ],
+      "nodes": [
+        "1fc05ed5-6df1-4030-8e9d-0c2ff95c2adc",
+        "5d1af37c-b6b6-4c63-a9c8-d324394870ef",
+        "b204d657-2268-471b-a764-fa3995fdb943"
+      ]
+    },
+    {
+      "cluster_id": 22,
+      "size": 3,
+      "keywords": [
+        {
+          "term": "nations",
+          "tfidf": 0.29919374985162245
+        },
+        {
+          "term": "energy",
+          "tfidf": 0.17059746744068033
+        },
+        {
+          "term": "portfolio",
+          "tfidf": 0.1599090520189302
+        },
+        {
+          "term": "possession",
+          "tfidf": 0.1599090520189302
+        },
+        {
+          "term": "states",
+          "tfidf": 0.1599090520189302
+        },
+        {
+          "term": "deterred",
+          "tfidf": 0.1599090520189302
+        },
+        {
+          "term": "tariffs",
+          "tfidf": 0.1599090520189302
+        },
+        {
+          "term": "united",
+          "tfidf": 0.1599090520189302
+        },
+        {
+          "term": "green",
+          "tfidf": 0.1599090520189302
+        },
+        {
+          "term": "historically",
+          "tfidf": 0.1599090520189302
+        }
+      ],
+      "nodes": [
+        "01431b2e-25c7-4514-951f-588d82f632c2",
+        "a62f846c-958f-44f4-93f4-8c87df407dd4",
+        "d5074f28-d2c6-402c-adb1-1d2bebb70f3c"
+      ]
+    },
+    {
+      "cluster_id": 23,
+      "size": 3,
+      "keywords": [
+        {
+          "term": "cost",
+          "tfidf": 0.24485327650953692
+        },
+        {
+          "term": "renewable",
+          "tfidf": 0.2133536093938181
+        },
+        {
+          "term": "energy",
+          "tfidf": 0.19730516201900386
+        },
+        {
+          "term": "investment",
+          "tfidf": 0.19498909992059255
+        },
+        {
+          "term": "run",
+          "tfidf": 0.18494343374629005
+        },
+        {
+          "term": "terms",
+          "tfidf": 0.18494343374629005
+        },
+        {
+          "term": "sustaining",
+          "tfidf": 0.18494343374629005
+        },
+        {
+          "term": "self",
+          "tfidf": 0.18494343374629005
+        },
+        {
+          "term": "largely",
+          "tfidf": 0.18494343374629005
+        },
+        {
+          "term": "aid",
+          "tfidf": 0.18494343374629005
+        }
+      ],
+      "nodes": [
+        "13574735-98c3-404a-8126-844b6abf30fb",
+        "4f9e92b0-5b3e-4d6d-86d4-f8eb465841b6",
+        "ba04ac88-e1e9-4440-a943-fe3570e9d500"
+      ]
+    },
+    {
+      "cluster_id": 24,
+      "size": 3,
+      "keywords": [
+        {
+          "term": "nuclear",
+          "tfidf": 0.2750857686141911
+        },
+        {
+          "term": "reactors",
+          "tfidf": 0.26807676721228235
+        },
+        {
+          "term": "meet",
+          "tfidf": 0.26807676721228235
+        },
+        {
+          "term": "global",
+          "tfidf": 0.2517339959179434
+        },
+        {
+          "term": "demands",
+          "tfidf": 0.24524727616847194
+        },
+        {
+          "term": "energy",
+          "tfidf": 0.23832931380210542
+        },
+        {
+          "term": "air",
+          "tfidf": 0.2164855189432274
+        },
+        {
+          "term": "similarly",
+          "tfidf": 0.13403838360614118
+        },
+        {
+          "term": "mass",
+          "tfidf": 0.13403838360614118
+        },
+        {
+          "term": "growing",
+          "tfidf": 0.13403838360614118
+        }
+      ],
+      "nodes": [
+        "069e5edb-2c52-48bf-bc93-ed4412d2df8e",
+        "4d0b32b0-09c8-4d7a-a1b3-1fd5df4dec32",
+        "cf8767b7-aabd-4730-ad41-90e768a51a44"
+      ]
+    },
+    {
+      "cluster_id": 25,
+      "size": 3,
+      "keywords": [
+        {
+          "term": "threats",
+          "tfidf": 0.40533061821170596
+        },
+        {
+          "term": "traditional",
+          "tfidf": 0.34184135423282036
+        },
+        {
+          "term": "non",
+          "tfidf": 0.23923868272755208
+        },
+        {
+          "term": "national",
+          "tfidf": 0.16309269513998925
+        },
+        {
+          "term": "relative",
+          "tfidf": 0.14812614943206906
+        },
+        {
+          "term": "rise",
+          "tfidf": 0.14812614943206906
+        },
+        {
+          "term": "aspects",
+          "tfidf": 0.14812614943206906
+        },
+        {
+          "term": "pandemics",
+          "tfidf": 0.14812614943206906
+        },
+        {
+          "term": "escalating",
+          "tfidf": 0.14812614943206906
+        },
+        {
+          "term": "severity",
+          "tfidf": 0.14812614943206906
+        }
+      ],
+      "nodes": [
+        "2a2fe507-0483-4568-9b59-4bc3a3732bfb",
+        "4b446ae0-5d4c-496f-80c8-a4cead476722",
+        "d584da79-f3c6-4d25-846e-f7b03eabbd94"
+      ]
+    },
+    {
+      "cluster_id": 26,
+      "size": 3,
+      "keywords": [
+        {
+          "term": "supply",
+          "tfidf": 0.34509514409911296
+        },
+        {
+          "term": "electricity",
+          "tfidf": 0.32132747510539633
+        },
+        {
+          "term": "reliable",
+          "tfidf": 0.31001206123032743
+        },
+        {
+          "term": "power",
+          "tfidf": 0.30859793692343496
+        },
+        {
+          "term": "consistent",
+          "tfidf": 0.30010484475413834
+        },
+        {
+          "term": "provide",
+          "tfidf": 0.28364329376332303
+        },
+        {
+          "term": "source",
+          "tfidf": 0.2701932272648188
+        },
+        {
+          "term": "primary",
+          "tfidf": 0.24028160977549923
+        },
+        {
+          "term": "backbone",
+          "tfidf": 0.23415939506314393
+        },
+        {
+          "term": "grid",
+          "tfidf": 0.1601877398503328
+        }
+      ],
+      "nodes": [
+        "6cc2f0c9-9638-4020-8b73-c51e25a1bc2e",
+        "a5e3f165-449e-426b-83ea-a48abf39f452",
+        "df77b355-b236-4506-afc8-fed73cd4c5db"
+      ]
+    },
+    {
+      "cluster_id": 27,
+      "size": 3,
+      "keywords": [
+        {
+          "term": "issues",
+          "tfidf": 0.36584444961199275
+        },
+        {
+          "term": "addressing",
+          "tfidf": 0.33468903591203947
+        },
+        {
+          "term": "administrative",
+          "tfidf": 0.2438962997413285
+        },
+        {
+          "term": "overhead",
+          "tfidf": 0.2438962997413285
+        },
+        {
+          "term": "social",
+          "tfidf": 0.24217732515772958
+        },
+        {
+          "term": "bureaucratic",
+          "tfidf": 0.22312602394135966
+        },
+        {
+          "term": "allocation",
+          "tfidf": 0.20838927873679783
+        },
+        {
+          "term": "pressing",
+          "tfidf": 0.19695857110968373
+        },
+        {
+          "term": "economic",
+          "tfidf": 0.1416467260055236
+        },
+        {
+          "term": "costs",
+          "tfidf": 0.1313417061323294
+        }
+      ],
+      "nodes": [
+        "1412cb04-2aab-40e2-a6ac-9a1ccf643ba9",
+        "6eabb91f-d930-4116-a8ad-e1713050cdd4",
+        "6f18bc14-1c9c-4fc7-9304-a2a817ed6eee"
+      ]
+    },
+    {
+      "cluster_id": 28,
+      "size": 3,
+      "keywords": [
+        {
+          "term": "resources",
+          "tfidf": 0.3649755056680236
+        },
+        {
+          "term": "priority",
+          "tfidf": 0.28943274013509673
+        },
+        {
+          "term": "allocating",
+          "tfidf": 0.28943274013509673
+        },
+        {
+          "term": "education",
+          "tfidf": 0.23313093549927721
+        },
+        {
+          "term": "nation",
+          "tfidf": 0.2268849645494921
+        },
+        {
+          "term": "healthcare",
+          "tfidf": 0.2094303646009234
+        },
+        {
+          "term": "expense",
+          "tfidf": 0.15818767595100416
+        },
+        {
+          "term": "prioritization",
+          "tfidf": 0.15818767595100416
+        },
+        {
+          "term": "finite",
+          "tfidf": 0.15818767595100416
+        },
+        {
+          "term": "taiwanese",
+          "tfidf": 0.15818767595100416
+        }
+      ],
+      "nodes": [
+        "2213afec-3f26-42e9-bb86-d1c8d0605c9d",
+        "28940448-d8bc-4d89-b759-cb9486a1c052",
+        "dfe243f4-5471-49c8-bc3e-568f7dde78ba"
+      ]
+    },
+    {
+      "cluster_id": 29,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "inefficient",
+          "tfidf": 0.33380539149179506
+        },
+        {
+          "term": "demand",
+          "tfidf": 0.28520918458051675
+        },
+        {
+          "term": "smart",
+          "tfidf": 0.28520918458051675
+        },
+        {
+          "term": "storage",
+          "tfidf": 0.28520918458051675
+        },
+        {
+          "term": "solutions",
+          "tfidf": 0.2567822258601327
+        },
+        {
+          "term": "management",
+          "tfidf": 0.24597479773736652
+        },
+        {
+          "term": "systems",
+          "tfidf": 0.2366129776692385
+        },
+        {
+          "term": "grid",
+          "tfidf": 0.22835526713974863
+        },
+        {
+          "term": "energy",
+          "tfidf": 0.17805857044229023
+        },
+        {
+          "term": "compensated",
+          "tfidf": 0.16690269574589753
+        }
+      ],
+      "nodes": [
+        "42433dd4-492a-4441-91ba-456ec7859620",
+        "d1af35a8-fd15-4ab8-aae6-b7f0c30dd321"
+      ]
+    },
+    {
+      "cluster_id": 30,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "diplomacy",
+          "tfidf": 0.3732101954054842
+        },
+        {
+          "term": "international",
+          "tfidf": 0.27907836548133497
+        },
+        {
+          "term": "resolve",
+          "tfidf": 0.2039757265361798
+        },
+        {
+          "term": "disputes",
+          "tfidf": 0.2039757265361798
+        },
+        {
+          "term": "camp",
+          "tfidf": 0.2039757265361798
+        },
+        {
+          "term": "accords",
+          "tfidf": 0.2039757265361798
+        },
+        {
+          "term": "platform",
+          "tfidf": 0.2039757265361798
+        },
+        {
+          "term": "david",
+          "tfidf": 0.2039757265361798
+        },
+        {
+          "term": "arrangements",
+          "tfidf": 0.2039757265361798
+        },
+        {
+          "term": "israel",
+          "tfidf": 0.2039757265361798
+        }
+      ],
+      "nodes": [
+        "43f69812-a64b-4652-8233-0941f6687ee2",
+        "cc85e5f5-c51f-46ca-a734-4831feb76db4"
+      ]
+    },
+    {
+      "cluster_id": 31,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "warfare",
+          "tfidf": 0.33549764785766795
+        },
+        {
+          "term": "capabilities",
+          "tfidf": 0.29615163738171824
+        },
+        {
+          "term": "cyber",
+          "tfidf": 0.2821084383919733
+        },
+        {
+          "term": "advanced",
+          "tfidf": 0.2821084383919733
+        },
+        {
+          "term": "systems",
+          "tfidf": 0.259949914406857
+        },
+        {
+          "term": "intensify",
+          "tfidf": 0.18336416666912314
+        },
+        {
+          "term": "adversaries",
+          "tfidf": 0.18336416666912314
+        },
+        {
+          "term": "triggered",
+          "tfidf": 0.18336416666912314
+        },
+        {
+          "term": "interconnectedness",
+          "tfidf": 0.16774882392883397
+        },
+        {
+          "term": "leveraged",
+          "tfidf": 0.16774882392883397
+        }
+      ],
+      "nodes": [
+        "5c1a96f6-c64c-43cf-b20f-981dbec8d79d",
+        "80c2455e-dee0-4263-b271-dc97d80de5f2"
+      ]
+    },
+    {
+      "cluster_id": 32,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "processes",
+          "tfidf": 0.29943633117945184
+        },
+        {
+          "term": "wind",
+          "tfidf": 0.28301144994085853
+        },
+        {
+          "term": "greenhouse",
+          "tfidf": 0.24841598999319986
+        },
+        {
+          "term": "gas",
+          "tfidf": 0.24841598999319986
+        },
+        {
+          "term": "emissions",
+          "tfidf": 0.23974635844353873
+        },
+        {
+          "term": "solar",
+          "tfidf": 0.23974635844353873
+        },
+        {
+          "term": "extraction",
+          "tfidf": 0.17522833618285194
+        },
+        {
+          "term": "processing",
+          "tfidf": 0.17522833618285194
+        },
+        {
+          "term": "components",
+          "tfidf": 0.17522833618285194
+        },
+        {
+          "term": "intensive",
+          "tfidf": 0.17522833618285194
+        }
+      ],
+      "nodes": [
+        "25c9fba8-655c-4fa6-be75-bebef03fba9b",
+        "bb006956-955d-46de-8819-444ed12b4080"
+      ]
+    },
+    {
+      "cluster_id": 33,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "scaled",
+          "tfidf": 0.3414213338097336
+        },
+        {
+          "term": "demonstrates",
+          "tfidf": 0.3188715697128391
+        },
+        {
+          "term": "implemented",
+          "tfidf": 0.3013806138149109
+        },
+        {
+          "term": "energy",
+          "tfidf": 0.2654323863670591
+        },
+        {
+          "term": "solar",
+          "tfidf": 0.2553073548179856
+        },
+        {
+          "term": "existing",
+          "tfidf": 0.2553073548179856
+        },
+        {
+          "term": "installations",
+          "tfidf": 0.18660172062858013
+        },
+        {
+          "term": "million",
+          "tfidf": 0.18660172062858013
+        },
+        {
+          "term": "european",
+          "tfidf": 0.18660172062858013
+        },
+        {
+          "term": "germany",
+          "tfidf": 0.18660172062858013
+        }
+      ],
+      "nodes": [
+        "32539ab5-509d-4266-ab07-8c460f070f9c",
+        "b669d5c7-4149-4d5b-91a4-7312e977c07c"
+      ]
+    },
+    {
+      "cluster_id": 34,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "coral",
+          "tfidf": 0.49753775671219364
+        },
+        {
+          "term": "reefs",
+          "tfidf": 0.3316918378081291
+        },
+        {
+          "term": "resilience",
+          "tfidf": 0.30978467514791025
+        },
+        {
+          "term": "algae",
+          "tfidf": 0.181284124699557
+        },
+        {
+          "term": "conservation",
+          "tfidf": 0.181284124699557
+        },
+        {
+          "term": "relationships",
+          "tfidf": 0.181284124699557
+        },
+        {
+          "term": "symbiotic",
+          "tfidf": 0.181284124699557
+        },
+        {
+          "term": "bleaching",
+          "tfidf": 0.181284124699557
+        },
+        {
+          "term": "form",
+          "tfidf": 0.181284124699557
+        },
+        {
+          "term": "appropriate",
+          "tfidf": 0.181284124699557
+        }
+      ],
+      "nodes": [
+        "3262b545-7761-4076-829d-c6f1323d1291",
+        "faba2157-fd40-4695-972a-feb3ea9733b1"
+      ]
+    },
+    {
+      "cluster_id": 35,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "illicit",
+          "tfidf": 0.37258279008640255
+        },
+        {
+          "term": "investments",
+          "tfidf": 0.2745491198400227
+        },
+        {
+          "term": "distort",
+          "tfidf": 0.18629139504320127
+        },
+        {
+          "term": "disadvantages",
+          "tfidf": 0.18629139504320127
+        },
+        {
+          "term": "legitimate",
+          "tfidf": 0.18629139504320127
+        },
+        {
+          "term": "unregulated",
+          "tfidf": 0.18629139504320127
+        },
+        {
+          "term": "uneven",
+          "tfidf": 0.18629139504320127
+        },
+        {
+          "term": "darkweb",
+          "tfidf": 0.18629139504320127
+        },
+        {
+          "term": "dark",
+          "tfidf": 0.18629139504320127
+        },
+        {
+          "term": "misallocate",
+          "tfidf": 0.18629139504320127
+        }
+      ],
+      "nodes": [
+        "6d9197db-8ae4-4c0e-806a-274e35e6919f",
+        "cf5bc976-d9ac-450c-b3b3-5ab103dc4e48"
+      ]
+    },
+    {
+      "cluster_id": 36,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "currency",
+          "tfidf": 0.33039052208687375
+        },
+        {
+          "term": "pandemic",
+          "tfidf": 0.3022543745818969
+        },
+        {
+          "term": "fluctuations",
+          "tfidf": 0.2822914602319857
+        },
+        {
+          "term": "businesses",
+          "tfidf": 0.2541553127270088
+        },
+        {
+          "term": "management",
+          "tfidf": 0.24345844589708868
+        },
+        {
+          "term": "risks",
+          "tfidf": 0.24345844589708868
+        },
+        {
+          "term": "governments",
+          "tfidf": 0.22601916522203191
+        },
+        {
+          "term": "financial",
+          "tfidf": 0.21209416853417093
+        },
+        {
+          "term": "risk",
+          "tfidf": 0.21209416853417093
+        },
+        {
+          "term": "impacts",
+          "tfidf": 0.21209416853417093
+        }
+      ],
+      "nodes": [
+        "24ac0f87-2808-4cd9-a3d7-0df620164ec8",
+        "b88472ed-a69b-449a-89da-baf8f0cf280f"
+      ]
+    },
+    {
+      "cluster_id": 37,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "energy",
+          "tfidf": 0.22965238332642507
+        },
+        {
+          "term": "upgrades",
+          "tfidf": 0.21526400985047442
+        },
+        {
+          "term": "costly",
+          "tfidf": 0.21526400985047442
+        },
+        {
+          "term": "emerge",
+          "tfidf": 0.21526400985047442
+        },
+        {
+          "term": "extremist",
+          "tfidf": 0.21526400985047442
+        },
+        {
+          "term": "adding",
+          "tfidf": 0.21526400985047442
+        },
+        {
+          "term": "integrating",
+          "tfidf": 0.21526400985047442
+        },
+        {
+          "term": "compatibility",
+          "tfidf": 0.21526400985047442
+        },
+        {
+          "term": "expenses",
+          "tfidf": 0.19693206771300242
+        },
+        {
+          "term": "vacuums",
+          "tfidf": 0.19693206771300242
+        }
+      ],
+      "nodes": [
+        "28e4301d-cea5-4b52-bd3b-91d17522d28a",
+        "d1b6f1fb-934c-46e0-aa2a-c90830c4e32d"
+      ]
+    },
+    {
+      "cluster_id": 38,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "interests",
+          "tfidf": 0.33970925411834646
+        },
+        {
+          "term": "economic",
+          "tfidf": 0.3078770266322427
+        },
+        {
+          "term": "protect",
+          "tfidf": 0.3058502430280901
+        },
+        {
+          "term": "strength",
+          "tfidf": 0.3058502430280901
+        },
+        {
+          "term": "military",
+          "tfidf": 0.27510213811094947
+        },
+        {
+          "term": "stability",
+          "tfidf": 0.23509528266798024
+        },
+        {
+          "term": "nation",
+          "tfidf": 0.1900855194825152
+        },
+        {
+          "term": "making",
+          "tfidf": 0.18340142540729965
+        },
+        {
+          "term": "component",
+          "tfidf": 0.1818663024004388
+        },
+        {
+          "term": "external",
+          "tfidf": 0.1818663024004388
+        }
+      ],
+      "nodes": [
+        "0b31b739-d74a-48ea-880c-64447377173f",
+        "184c69d5-d30e-426f-8fc3-1b387d3e12c2"
+      ]
+    },
+    {
+      "cluster_id": 39,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "proactive",
+          "tfidf": 0.354155052024817
+        },
+        {
+          "term": "adaptive",
+          "tfidf": 0.354155052024817
+        },
+        {
+          "term": "strategy",
+          "tfidf": 0.354155052024817
+        },
+        {
+          "term": "defense",
+          "tfidf": 0.30259629166460406
+        },
+        {
+          "term": "pressing",
+          "tfidf": 0.28599807816708667
+        },
+        {
+          "term": "threats",
+          "tfidf": 0.24227640887581806
+        },
+        {
+          "term": "concerns",
+          "tfidf": 0.1770775260124085
+        },
+        {
+          "term": "prioritizes",
+          "tfidf": 0.1770775260124085
+        },
+        {
+          "term": "reactive",
+          "tfidf": 0.1770775260124085
+        },
+        {
+          "term": "evolving",
+          "tfidf": 0.1770775260124085
+        }
+      ],
+      "nodes": [
+        "d40fd966-b3c2-4cdd-8925-475357fd86aa",
+        "d65c6231-9618-4654-a5df-ddb209b67b2a"
+      ]
+    },
+    {
+      "cluster_id": 40,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "public",
+          "tfidf": 0.36454900296981185
+        },
+        {
+          "term": "partnerships",
+          "tfidf": 0.3217959494642553
+        },
+        {
+          "term": "private",
+          "tfidf": 0.2936352330355296
+        },
+        {
+          "term": "financial",
+          "tfidf": 0.2558067779227244
+        },
+        {
+          "term": "resources",
+          "tfidf": 0.22984866300470583
+        },
+        {
+          "term": "synergy",
+          "tfidf": 0.19924200532093675
+        },
+        {
+          "term": "mobilized",
+          "tfidf": 0.19924200532093675
+        },
+        {
+          "term": "combining",
+          "tfidf": 0.19924200532093675
+        },
+        {
+          "term": "financing",
+          "tfidf": 0.19924200532093675
+        },
+        {
+          "term": "greater",
+          "tfidf": 0.18227450148490593
+        }
+      ],
+      "nodes": [
+        "99d74f03-f840-48d2-b98c-7ba7cb807436",
+        "c2b6c147-32d7-4cc3-9c0f-706fb8ec74da"
+      ]
+    },
+    {
+      "cluster_id": 41,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "mitigation",
+          "tfidf": 0.42064783463092664
+        },
+        {
+          "term": "requires",
+          "tfidf": 0.2981699494347066
+        },
+        {
+          "term": "infrastructure",
+          "tfidf": 0.2426329283074707
+        },
+        {
+          "term": "significant",
+          "tfidf": 0.22174818807233265
+        },
+        {
+          "term": "prohibitively",
+          "tfidf": 0.21032391731546332
+        },
+        {
+          "term": "localized",
+          "tfidf": 0.21032391731546332
+        },
+        {
+          "term": "achieved",
+          "tfidf": 0.19241267481360846
+        },
+        {
+          "term": "expensive",
+          "tfidf": 0.19241267481360846
+        },
+        {
+          "term": "training",
+          "tfidf": 0.19241267481360846
+        },
+        {
+          "term": "implementation",
+          "tfidf": 0.19241267481360846
+        }
+      ],
+      "nodes": [
+        "07b90633-781e-4db0-9579-283dffa985b0",
+        "200268d0-7092-4bc4-84ef-cdc1139bb1d0"
+      ]
+    },
+    {
+      "cluster_id": 42,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "infrastructure",
+          "tfidf": 0.3762151549737587
+        },
+        {
+          "term": "decommissioning",
+          "tfidf": 0.32611832903097643
+        },
+        {
+          "term": "old",
+          "tfidf": 0.32611832903097643
+        },
+        {
+          "term": "costs",
+          "tfidf": 0.2634291978684008
+        },
+        {
+          "term": "benefits",
+          "tfidf": 0.23116411799008488
+        },
+        {
+          "term": "transition",
+          "tfidf": 0.2158799038591215
+        },
+        {
+          "term": "erode",
+          "tfidf": 0.16305916451548821
+        },
+        {
+          "term": "unforeseen",
+          "tfidf": 0.16305916451548821
+        },
+        {
+          "term": "offsetting",
+          "tfidf": 0.16305916451548821
+        },
+        {
+          "term": "upgrade",
+          "tfidf": 0.16305916451548821
+        }
+      ],
+      "nodes": [
+        "e3433149-a3cf-46a0-9263-83fa785c2fab",
+        "f4f5b5c0-216f-446f-a2a3-589a5b279440"
+      ]
+    },
+    {
+      "cluster_id": 43,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "financial",
+          "tfidf": 0.2682516712939195
+        },
+        {
+          "term": "growth",
+          "tfidf": 0.22502912463306976
+        },
+        {
+          "term": "costs",
+          "tfidf": 0.22502912463306976
+        },
+        {
+          "term": "exposed",
+          "tfidf": 0.2089350460269621
+        },
+        {
+          "term": "suggesting",
+          "tfidf": 0.2089350460269621
+        },
+        {
+          "term": "quantifying",
+          "tfidf": 0.2089350460269621
+        },
+        {
+          "term": "fees",
+          "tfidf": 0.2089350460269621
+        },
+        {
+          "term": "experienced",
+          "tfidf": 0.2089350460269621
+        },
+        {
+          "term": "indicating",
+          "tfidf": 0.2089350460269621
+        },
+        {
+          "term": "australia",
+          "tfidf": 0.2089350460269621
+        }
+      ],
+      "nodes": [
+        "6cec2539-70c8-4ec8-a251-d7b738db3eb6",
+        "a653e0f9-dd1d-4c9f-a120-6685aa92d4eb"
+      ]
+    },
+    {
+      "cluster_id": 44,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "losses",
+          "tfidf": 0.4382094942701607
+        },
+        {
+          "term": "chains",
+          "tfidf": 0.27284479217471375
+        },
+        {
+          "term": "productivity",
+          "tfidf": 0.27284479217471375
+        },
+        {
+          "term": "initial",
+          "tfidf": 0.25787852775921566
+        },
+        {
+          "term": "supply",
+          "tfidf": 0.23531129499766343
+        },
+        {
+          "term": "impact",
+          "tfidf": 0.20499659921564156
+        },
+        {
+          "term": "zone",
+          "tfidf": 0.1596671278351943
+        },
+        {
+          "term": "reaction",
+          "tfidf": 0.1596671278351943
+        },
+        {
+          "term": "triggering",
+          "tfidf": 0.1596671278351943
+        },
+        {
+          "term": "amplify",
+          "tfidf": 0.1596671278351943
+        }
+      ],
+      "nodes": [
+        "156ebad2-4d9e-41ca-b767-4ee1c5ffa1d0",
+        "7af8c83f-20bd-42fc-909d-eaf24d042743"
+      ]
+    },
+    {
+      "cluster_id": 45,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "mean",
+          "tfidf": 0.3321369903832926
+        },
+        {
+          "term": "forgoing",
+          "tfidf": 0.30385211315904165
+        },
+        {
+          "term": "sources",
+          "tfidf": 0.2960775018921839
+        },
+        {
+          "term": "energy",
+          "tfidf": 0.29528101905102305
+        },
+        {
+          "term": "immediate",
+          "tfidf": 0.2682173821740808
+        },
+        {
+          "term": "provide",
+          "tfidf": 0.2682173821740808
+        },
+        {
+          "term": "investment",
+          "tfidf": 0.17508892176733434
+        },
+        {
+          "term": "short",
+          "tfidf": 0.1660684951916463
+        },
+        {
+          "term": "missed",
+          "tfidf": 0.1660684951916463
+        },
+        {
+          "term": "returns",
+          "tfidf": 0.1660684951916463
+        }
+      ],
+      "nodes": [
+        "5cf00df3-4c7d-4ed5-85d6-8c2ec7e8cabb",
+        "7284232d-afed-481e-b02f-86d18baac820"
+      ]
+    },
+    {
+      "cluster_id": 46,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "competitiveness",
+          "tfidf": 0.3216448628264961
+        },
+        {
+          "term": "global",
+          "tfidf": 0.28051164916610355
+        },
+        {
+          "term": "innovation",
+          "tfidf": 0.255686673906323
+        },
+        {
+          "term": "enhanced",
+          "tfidf": 0.19914845906985917
+        },
+        {
+          "term": "capitalize",
+          "tfidf": 0.19914845906985917
+        },
+        {
+          "term": "enables",
+          "tfidf": 0.19914845906985917
+        },
+        {
+          "term": "revenues",
+          "tfidf": 0.18218892165823491
+        },
+        {
+          "term": "prosperity",
+          "tfidf": 0.18218892165823491
+        },
+        {
+          "term": "multiplier",
+          "tfidf": 0.18218892165823491
+        },
+        {
+          "term": "ahead",
+          "tfidf": 0.18218892165823491
+        }
+      ],
+      "nodes": [
+        "5e6cd164-c34c-418a-bb17-af30ca5726d1",
+        "fefdb1fc-12f3-4444-a1e4-e4eb511f0db2"
+      ]
+    },
+    {
+      "cluster_id": 47,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "nuclear",
+          "tfidf": 0.2849649750281908
+        },
+        {
+          "term": "premature",
+          "tfidf": 0.20827819354068514
+        },
+        {
+          "term": "plants",
+          "tfidf": 0.20827819354068514
+        },
+        {
+          "term": "uncertainties",
+          "tfidf": 0.20827819354068514
+        },
+        {
+          "term": "drastic",
+          "tfidf": 0.20827819354068514
+        },
+        {
+          "term": "combating",
+          "tfidf": 0.20827819354068514
+        },
+        {
+          "term": "accidents",
+          "tfidf": 0.20827819354068514
+        },
+        {
+          "term": "radioactive",
+          "tfidf": 0.1905411654367435
+        },
+        {
+          "term": "waste",
+          "tfidf": 0.1905411654367435
+        },
+        {
+          "term": "disposal",
+          "tfidf": 0.1905411654367435
+        }
+      ],
+      "nodes": [
+        "5ff74c79-abaf-4c1e-a317-3d09f3f67560",
+        "90a739a5-0e91-4401-97a1-60bc04d48f24"
+      ]
+    },
+    {
+      "cluster_id": 48,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "citizens",
+          "tfidf": 0.3181059518823934
+        },
+        {
+          "term": "freedoms",
+          "tfidf": 0.3100008249834943
+        },
+        {
+          "term": "surrender",
+          "tfidf": 0.3100008249834943
+        },
+        {
+          "term": "contract",
+          "tfidf": 0.2836010696778422
+        },
+        {
+          "term": "exchange",
+          "tfidf": 0.2836010696778422
+        },
+        {
+          "term": "social",
+          "tfidf": 0.20521063165182724
+        },
+        {
+          "term": "government",
+          "tfidf": 0.18812814478826845
+        },
+        {
+          "term": "faith",
+          "tfidf": 0.15500041249174715
+        },
+        {
+          "term": "obey",
+          "tfidf": 0.15500041249174715
+        },
+        {
+          "term": "people",
+          "tfidf": 0.15500041249174715
+        }
+      ],
+      "nodes": [
+        "7153c590-f888-4e68-a2cf-956693f93f58",
+        "de038372-762d-4a3b-b2c5-1813c224737d"
+      ]
+    },
+    {
+      "cluster_id": 49,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "fragmentation",
+          "tfidf": 0.18722462902777023
+        },
+        {
+          "term": "strongholds",
+          "tfidf": 0.18722462902777023
+        },
+        {
+          "term": "escalation",
+          "tfidf": 0.18722462902777023
+        },
+        {
+          "term": "sides",
+          "tfidf": 0.18722462902777023
+        },
+        {
+          "term": "understood",
+          "tfidf": 0.18722462902777023
+        },
+        {
+          "term": "degree",
+          "tfidf": 0.18722462902777023
+        },
+        {
+          "term": "emergence",
+          "tfidf": 0.18722462902777023
+        },
+        {
+          "term": "targeting",
+          "tfidf": 0.18722462902777023
+        },
+        {
+          "term": "radical",
+          "tfidf": 0.18722462902777023
+        },
+        {
+          "term": "resolutions",
+          "tfidf": 0.18722462902777023
+        }
+      ],
+      "nodes": [
+        "5caad58e-08a1-4a8a-b7d8-9ef368120a5f",
+        "5edb86a4-048a-4958-9de9-9ed9376fbe0f"
+      ]
+    },
+    {
+      "cluster_id": 50,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "transition",
+          "tfidf": 0.2759179391177734
+        },
+        {
+          "term": "fuels",
+          "tfidf": 0.2244607304955686
+        },
+        {
+          "term": "energy",
+          "tfidf": 0.2223373705985981
+        },
+        {
+          "term": "fossil",
+          "tfidf": 0.21096576001602088
+        },
+        {
+          "term": "momentum",
+          "tfidf": 0.2084073034270924
+        },
+        {
+          "term": "prolonged",
+          "tfidf": 0.2084073034270924
+        },
+        {
+          "term": "does",
+          "tfidf": 0.2084073034270924
+        },
+        {
+          "term": "sustains",
+          "tfidf": 0.2084073034270924
+        },
+        {
+          "term": "levels",
+          "tfidf": 0.2084073034270924
+        },
+        {
+          "term": "cleaner",
+          "tfidf": 0.19065928028980245
+        }
+      ],
+      "nodes": [
+        "0ad558a8-5859-431f-9aa6-3c5aa9816630",
+        "91c858fa-9b62-4be0-8647-1db7017c1312"
+      ]
+    },
+    {
+      "cluster_id": 51,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "economic",
+          "tfidf": 0.30103558653503903
+        },
+        {
+          "term": "change",
+          "tfidf": 0.21401812396570152
+        },
+        {
+          "term": "necessitating",
+          "tfidf": 0.1943782987000351
+        },
+        {
+          "term": "dollars",
+          "tfidf": 0.1943782987000351
+        },
+        {
+          "term": "projected",
+          "tfidf": 0.1943782987000351
+        },
+        {
+          "term": "sacrifices",
+          "tfidf": 0.1943782987000351
+        },
+        {
+          "term": "reach",
+          "tfidf": 0.1943782987000351
+        },
+        {
+          "term": "weakening",
+          "tfidf": 0.1943782987000351
+        },
+        {
+          "term": "action",
+          "tfidf": 0.1943782987000351
+        },
+        {
+          "term": "trillions",
+          "tfidf": 0.1943782987000351
+        }
+      ],
+      "nodes": [
+        "aa852c83-b7ea-4a76-8485-791e0db1e3a0",
+        "fc9c59db-f565-4b8a-94c7-854e742bc39c"
+      ]
+    },
+    {
+      "cluster_id": 52,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "lack",
+          "tfidf": 0.3289620857242551
+        },
+        {
+          "term": "innovative",
+          "tfidf": 0.31336304980215146
+        },
+        {
+          "term": "strategies",
+          "tfidf": 0.31336304980215146
+        },
+        {
+          "term": "climate",
+          "tfidf": 0.303298834658915
+        },
+        {
+          "term": "countries",
+          "tfidf": 0.30017425285281646
+        },
+        {
+          "term": "investment",
+          "tfidf": 0.2147422975532985
+        },
+        {
+          "term": "leaving",
+          "tfidf": 0.20367896408695763
+        },
+        {
+          "term": "resilient",
+          "tfidf": 0.20367896408695763
+        },
+        {
+          "term": "technologies",
+          "tfidf": 0.19839602696536357
+        },
+        {
+          "term": "response",
+          "tfidf": 0.18633360762511378
+        }
+      ],
+      "nodes": [
+        "700458f6-a561-4553-a822-19452001dbbb",
+        "d5e35f3e-127f-40de-b174-6d2434cbf63a"
+      ]
+    },
+    {
+      "cluster_id": 53,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "vacuums",
+          "tfidf": 0.3787552599239176
+        },
+        {
+          "term": "creating",
+          "tfidf": 0.3184822772743032
+        },
+        {
+          "term": "undermine",
+          "tfidf": 0.3184822772743032
+        },
+        {
+          "term": "power",
+          "tfidf": 0.21825041591556843
+        },
+        {
+          "term": "eroding",
+          "tfidf": 0.20700634729027942
+        },
+        {
+          "term": "legitimacy",
+          "tfidf": 0.20700634729027942
+        },
+        {
+          "term": "destabilize",
+          "tfidf": 0.20700634729027942
+        },
+        {
+          "term": "dominance",
+          "tfidf": 0.20700634729027942
+        },
+        {
+          "term": "conducive",
+          "tfidf": 0.20700634729027942
+        },
+        {
+          "term": "military",
+          "tfidf": 0.19097615565309686
+        }
+      ],
+      "nodes": [
+        "248821bd-6775-4341-9574-782971f08e22",
+        "7c2e8b17-f401-4230-9dd0-018901315943"
+      ]
+    },
+    {
+      "cluster_id": 54,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "bases",
+          "tfidf": 0.38964730491670546
+        },
+        {
+          "term": "instability",
+          "tfidf": 0.3146598636163283
+        },
+        {
+          "term": "military",
+          "tfidf": 0.2696052995270041
+        },
+        {
+          "term": "related",
+          "tfidf": 0.2665565526275343
+        },
+        {
+          "term": "renewable",
+          "tfidf": 0.22475158271527537
+        },
+        {
+          "term": "energy",
+          "tfidf": 0.20784578038148643
+        },
+        {
+          "term": "strengthening",
+          "tfidf": 0.19482365245835273
+        },
+        {
+          "term": "root",
+          "tfidf": 0.19482365245835273
+        },
+        {
+          "term": "climate",
+          "tfidf": 0.1934082458948628
+        },
+        {
+          "term": "dependence",
+          "tfidf": 0.17823241676429366
+        }
+      ],
+      "nodes": [
+        "497beb9b-3add-45ae-871a-0a445edea87f",
+        "50c0c9a7-9f7f-4746-af98-1a554e3563ab"
+      ]
+    },
+    {
+      "cluster_id": 55,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "development",
+          "tfidf": 0.2508291244317763
+        },
+        {
+          "term": "significant",
+          "tfidf": 0.21788556609900342
+        },
+        {
+          "term": "internet",
+          "tfidf": 0.2066602942139551
+        },
+        {
+          "term": "gps",
+          "tfidf": 0.2066602942139551
+        },
+        {
+          "term": "foam",
+          "tfidf": 0.2066602942139551
+        },
+        {
+          "term": "urgency",
+          "tfidf": 0.2066602942139551
+        },
+        {
+          "term": "memory",
+          "tfidf": 0.2066602942139551
+        },
+        {
+          "term": "examples",
+          "tfidf": 0.2066602942139551
+        },
+        {
+          "term": "stakes",
+          "tfidf": 0.2066602942139551
+        },
+        {
+          "term": "financially",
+          "tfidf": 0.2066602942139551
+        }
+      ],
+      "nodes": [
+        "1d3121b6-cb1f-4fdc-876e-ef1521d43fbb",
+        "c921d273-65b7-4bc9-a200-6c48b39c6e4c"
+      ]
+    },
+    {
+      "cluster_id": 56,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "nato",
+          "tfidf": 0.317393017204629
+        },
+        {
+          "term": "deployments",
+          "tfidf": 0.317393017204629
+        },
+        {
+          "term": "exercises",
+          "tfidf": 0.317393017204629
+        },
+        {
+          "term": "aggression",
+          "tfidf": 0.27118616396196593
+        },
+        {
+          "term": "respond",
+          "tfidf": 0.2563108797268155
+        },
+        {
+          "term": "capabilities",
+          "tfidf": 0.2563108797268155
+        },
+        {
+          "term": "logistical",
+          "tfidf": 0.1586965086023145
+        },
+        {
+          "term": "periodic",
+          "tfidf": 0.1586965086023145
+        },
+        {
+          "term": "signal",
+          "tfidf": 0.1586965086023145
+        },
+        {
+          "term": "mobilization",
+          "tfidf": 0.1586965086023145
+        }
+      ],
+      "nodes": [
+        "8e368314-0496-4d0d-a324-4e12cdbee331",
+        "ed1db8c1-e6e7-41c3-934c-4d68e9e137bf"
+      ]
+    },
+    {
+      "cluster_id": 57,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "cancer",
+          "tfidf": 0.686592099665509
+        },
+        {
+          "term": "families",
+          "tfidf": 0.2746368398662036
+        },
+        {
+          "term": "individuals",
+          "tfidf": 0.22178310868797704
+        },
+        {
+          "term": "significant",
+          "tfidf": 0.1447772141075573
+        },
+        {
+          "term": "rising",
+          "tfidf": 0.1373184199331018
+        },
+        {
+          "term": "prevention",
+          "tfidf": 0.1373184199331018
+        },
+        {
+          "term": "medication",
+          "tfidf": 0.1373184199331018
+        },
+        {
+          "term": "prevalence",
+          "tfidf": 0.1373184199331018
+        },
+        {
+          "term": "underscore",
+          "tfidf": 0.1373184199331018
+        },
+        {
+          "term": "hardship",
+          "tfidf": 0.1373184199331018
+        }
+      ],
+      "nodes": [
+        "0329edcb-942d-43d0-95a4-bac54ea369f7",
+        "b1a5ddfd-90ab-4f56-babb-19551e7af2c0"
+      ]
+    },
+    {
+      "cluster_id": 58,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "medical",
+          "tfidf": 0.3010007674263892
+        },
+        {
+          "term": "attacks",
+          "tfidf": 0.2531011975662751
+        },
+        {
+          "term": "cyber",
+          "tfidf": 0.2531011975662751
+        },
+        {
+          "term": "healthcare",
+          "tfidf": 0.21780086260401035
+        },
+        {
+          "term": "sensitive",
+          "tfidf": 0.16451010979761463
+        },
+        {
+          "term": "ransomware",
+          "tfidf": 0.16451010979761463
+        },
+        {
+          "term": "numerous",
+          "tfidf": 0.16451010979761463
+        },
+        {
+          "term": "tied",
+          "tfidf": 0.16451010979761463
+        },
+        {
+          "term": "continuity",
+          "tfidf": 0.16451010979761463
+        },
+        {
+          "term": "breaches",
+          "tfidf": 0.16451010979761463
+        }
+      ],
+      "nodes": [
+        "614fb23f-e187-4313-95d9-a0b7c1155cc0",
+        "c979245e-4e72-414c-b227-c5f65438b559"
+      ]
+    },
+    {
+      "cluster_id": 59,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "fossil",
+          "tfidf": 0.22686524403203345
+        },
+        {
+          "term": "promote",
+          "tfidf": 0.22411396876182588
+        },
+        {
+          "term": "similarity",
+          "tfidf": 0.22411396876182588
+        },
+        {
+          "term": "thoughtful",
+          "tfidf": 0.22411396876182588
+        },
+        {
+          "term": "necessarily",
+          "tfidf": 0.20502836169543895
+        },
+        {
+          "term": "differences",
+          "tfidf": 0.20502836169543895
+        },
+        {
+          "term": "consideration",
+          "tfidf": 0.20502836169543895
+        },
+        {
+          "term": "reliability",
+          "tfidf": 0.20502836169543895
+        },
+        {
+          "term": "example",
+          "tfidf": 0.20502836169543895
+        },
+        {
+          "term": "contextual",
+          "tfidf": 0.20502836169543895
+        }
+      ],
+      "nodes": [
+        "14829798-b510-4f6b-af98-eabec46dd87d",
+        "19ccd388-9478-43cf-86f6-ab8e4b2907ae"
+      ]
+    },
+    {
+      "cluster_id": 60,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "ecosystem",
+          "tfidf": 0.5099560432352706
+        },
+        {
+          "term": "tipping",
+          "tfidf": 0.33997069549018033
+        },
+        {
+          "term": "original",
+          "tfidf": 0.16998534774509017
+        },
+        {
+          "term": "regain",
+          "tfidf": 0.16998534774509017
+        },
+        {
+          "term": "exceeded",
+          "tfidf": 0.16998534774509017
+        },
+        {
+          "term": "biodiversity",
+          "tfidf": 0.16998534774509017
+        },
+        {
+          "term": "points",
+          "tfidf": 0.16998534774509017
+        },
+        {
+          "term": "point",
+          "tfidf": 0.16998534774509017
+        },
+        {
+          "term": "recovery",
+          "tfidf": 0.16998534774509017
+        },
+        {
+          "term": "functionality",
+          "tfidf": 0.16998534774509017
+        }
+      ],
+      "nodes": [
+        "6050aa6b-3f4e-4ab6-81ad-2256aae376f8",
+        "8945b6e0-1151-4e4e-b7a2-dab09ab0fe5c"
+      ]
+    },
+    {
+      "cluster_id": 61,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "technological",
+          "tfidf": 0.33146769774106616
+        },
+        {
+          "term": "advancements",
+          "tfidf": 0.28586982578505277
+        },
+        {
+          "term": "spending",
+          "tfidf": 0.21851149790815044
+        },
+        {
+          "term": "robotics",
+          "tfidf": 0.193972898828762
+        },
+        {
+          "term": "civilian",
+          "tfidf": 0.193972898828762
+        },
+        {
+          "term": "applications",
+          "tfidf": 0.193972898828762
+        },
+        {
+          "term": "bolster",
+          "tfidf": 0.193972898828762
+        },
+        {
+          "term": "dual",
+          "tfidf": 0.193972898828762
+        },
+        {
+          "term": "science",
+          "tfidf": 0.193972898828762
+        },
+        {
+          "term": "military",
+          "tfidf": 0.17895199352152222
+        }
+      ],
+      "nodes": [
+        "b8242b20-9ec8-4efd-911e-b37009d52a42",
+        "c24a46a5-fb42-4b94-a2ab-6bc988e98984"
+      ]
+    },
+    {
+      "cluster_id": 62,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "economic",
+          "tfidf": 0.23932509325108234
+        },
+        {
+          "term": "diy",
+          "tfidf": 0.20604254798275812
+        },
+        {
+          "term": "sparked",
+          "tfidf": 0.20604254798275812
+        },
+        {
+          "term": "biofuels",
+          "tfidf": 0.20604254798275812
+        },
+        {
+          "term": "constraints",
+          "tfidf": 0.20604254798275812
+        },
+        {
+          "term": "unique",
+          "tfidf": 0.20604254798275812
+        },
+        {
+          "term": "enhance",
+          "tfidf": 0.1884959080678885
+        },
+        {
+          "term": "cuba",
+          "tfidf": 0.1884959080678885
+        },
+        {
+          "term": "vital",
+          "tfidf": 0.1884959080678885
+        },
+        {
+          "term": "equipped",
+          "tfidf": 0.1884959080678885
+        }
+      ],
+      "nodes": [
+        "5fdb2146-e069-499d-9b9c-6195af867322",
+        "a256a105-3313-4258-94db-c1b5c7d20c06"
+      ]
+    },
+    {
+      "cluster_id": 63,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "hand",
+          "tfidf": 0.37011823534496335
+        },
+        {
+          "term": "india",
+          "tfidf": 0.37011823534496335
+        },
+        {
+          "term": "transition",
+          "tfidf": 0.2450064346281775
+        },
+        {
+          "term": "renewable",
+          "tfidf": 0.21348706416267293
+        },
+        {
+          "term": "energy",
+          "tfidf": 0.1974285783271035
+        },
+        {
+          "term": "idea",
+          "tfidf": 0.18505911767248168
+        },
+        {
+          "term": "results",
+          "tfidf": 0.18505911767248168
+        },
+        {
+          "term": "adapted",
+          "tfidf": 0.18505911767248168
+        },
+        {
+          "term": "contradicting",
+          "tfidf": 0.18505911767248168
+        },
+        {
+          "term": "attributed",
+          "tfidf": 0.18505911767248168
+        }
+      ],
+      "nodes": [
+        "13236a64-74d0-48d3-95c5-ac4a1a9b86f6",
+        "bf80064c-a1fd-477e-8cf0-51d9bd609517"
+      ]
+    },
+    {
+      "cluster_id": 64,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "vital",
+          "tfidf": 0.3604537759767468
+        },
+        {
+          "term": "resources",
+          "tfidf": 0.2272666165818969
+        },
+        {
+          "term": "interruption",
+          "tfidf": 0.19700378430895865
+        },
+        {
+          "term": "safeguarding",
+          "tfidf": 0.19700378430895865
+        },
+        {
+          "term": "uninterrupted",
+          "tfidf": 0.19700378430895865
+        },
+        {
+          "term": "impacting",
+          "tfidf": 0.19700378430895865
+        },
+        {
+          "term": "lanes",
+          "tfidf": 0.19700378430895865
+        },
+        {
+          "term": "ensures",
+          "tfidf": 0.19700378430895865
+        },
+        {
+          "term": "shipping",
+          "tfidf": 0.19700378430895865
+        },
+        {
+          "term": "threatening",
+          "tfidf": 0.19700378430895865
+        }
+      ],
+      "nodes": [
+        "87c9b257-cfc4-4c32-8afe-2b8e05ae7016",
+        "fea3a40a-9171-4062-a087-a71497c3a568"
+      ]
+    },
+    {
+      "cluster_id": 65,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "like",
+          "tfidf": 0.24634996727373548
+        },
+        {
+          "term": "philanthropists",
+          "tfidf": 0.19749872658356216
+        },
+        {
+          "term": "musk",
+          "tfidf": 0.19749872658356216
+        },
+        {
+          "term": "donations",
+          "tfidf": 0.19749872658356216
+        },
+        {
+          "term": "showing",
+          "tfidf": 0.19749872658356216
+        },
+        {
+          "term": "decades",
+          "tfidf": 0.19749872658356216
+        },
+        {
+          "term": "gates",
+          "tfidf": 0.19749872658356216
+        },
+        {
+          "term": "elon",
+          "tfidf": 0.19749872658356216
+        },
+        {
+          "term": "manifest",
+          "tfidf": 0.19749872658356216
+        },
+        {
+          "term": "indirect",
+          "tfidf": 0.19749872658356216
+        }
+      ],
+      "nodes": [
+        "326ab2f2-e100-43d5-82e5-881b1bc3a097",
+        "de594b74-34d0-406a-ac66-d32d5d955aeb"
+      ]
+    },
+    {
+      "cluster_id": 66,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "skill",
+          "tfidf": 0.2106315087787812
+        },
+        {
+          "term": "workers",
+          "tfidf": 0.2106315087787812
+        },
+        {
+          "term": "crippling",
+          "tfidf": 0.2106315087787812
+        },
+        {
+          "term": "transfer",
+          "tfidf": 0.2106315087787812
+        },
+        {
+          "term": "specialized",
+          "tfidf": 0.2106315087787812
+        },
+        {
+          "term": "unlikely",
+          "tfidf": 0.19269407170352115
+        },
+        {
+          "term": "combat",
+          "tfidf": 0.19269407170352115
+        },
+        {
+          "term": "hindering",
+          "tfidf": 0.19269407170352115
+        },
+        {
+          "term": "displaced",
+          "tfidf": 0.19269407170352115
+        },
+        {
+          "term": "required",
+          "tfidf": 0.19269407170352115
+        }
+      ],
+      "nodes": [
+        "00c73be2-874d-490e-92e0-0d73b0e04461",
+        "a3f9be77-9afa-4e99-8399-52448c294406"
+      ]
+    },
+    {
+      "cluster_id": 67,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "bring",
+          "tfidf": 0.23142714782936583
+        },
+        {
+          "term": "outweighed",
+          "tfidf": 0.23142714782936583
+        },
+        {
+          "term": "compared",
+          "tfidf": 0.23142714782936583
+        },
+        {
+          "term": "collaboration",
+          "tfidf": 0.2117187484271851
+        },
+        {
+          "term": "develop",
+          "tfidf": 0.2117187484271851
+        },
+        {
+          "term": "waste",
+          "tfidf": 0.2117187484271851
+        },
+        {
+          "term": "disposal",
+          "tfidf": 0.2117187484271851
+        },
+        {
+          "term": "radioactive",
+          "tfidf": 0.2117187484271851
+        },
+        {
+          "term": "edge",
+          "tfidf": 0.19773541651687357
+        },
+        {
+          "term": "solution",
+          "tfidf": 0.19773541651687357
+        }
+      ],
+      "nodes": [
+        "13a3462d-c152-403c-bdb6-b34d9e41d679",
+        "f4de32e6-b30f-4a4d-81dd-905891b5cc66"
+      ]
+    },
+    {
+      "cluster_id": 68,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "taking",
+          "tfidf": 0.4472473802936482
+        },
+        {
+          "term": "medicine",
+          "tfidf": 0.29816492019576546
+        },
+        {
+          "term": "risk",
+          "tfidf": 0.28711041906802975
+        },
+        {
+          "term": "calculated",
+          "tfidf": 0.27277311378906766
+        },
+        {
+          "term": "like",
+          "tfidf": 0.18595795426894735
+        },
+        {
+          "term": "discovery",
+          "tfidf": 0.14908246009788273
+        },
+        {
+          "term": "encephalitis",
+          "tfidf": 0.14908246009788273
+        },
+        {
+          "term": "tick",
+          "tfidf": 0.14908246009788273
+        },
+        {
+          "term": "borne",
+          "tfidf": 0.14908246009788273
+        },
+        {
+          "term": "europa",
+          "tfidf": 0.14908246009788273
+        }
+      ],
+      "nodes": [
+        "70e07398-8f70-41f1-9cf4-312e075a52ce",
+        "c56466e1-46f0-4877-b58b-1ecce6403b5c"
+      ]
+    },
+    {
+      "cluster_id": 69,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "change",
+          "tfidf": 0.20048293668653844
+        },
+        {
+          "term": "physics",
+          "tfidf": 0.18208519647504917
+        },
+        {
+          "term": "disciplines",
+          "tfidf": 0.18208519647504917
+        },
+        {
+          "term": "reinforcing",
+          "tfidf": 0.18208519647504917
+        },
+        {
+          "term": "multiple",
+          "tfidf": 0.18208519647504917
+        },
+        {
+          "term": "lines",
+          "tfidf": 0.18208519647504917
+        },
+        {
+          "term": "worldwide",
+          "tfidf": 0.18208519647504917
+        },
+        {
+          "term": "consensus",
+          "tfidf": 0.18208519647504917
+        },
+        {
+          "term": "conclusion",
+          "tfidf": 0.18208519647504917
+        },
+        {
+          "term": "oceanography",
+          "tfidf": 0.18208519647504917
+        }
+      ],
+      "nodes": [
+        "26a8ebff-61c5-4c4a-a8d2-c8e9144bfc49",
+        "90b08c13-5f88-4065-8167-39455604fbcf"
+      ]
+    },
+    {
+      "cluster_id": 70,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "exploited",
+          "tfidf": 0.3392653590805521
+        },
+        {
+          "term": "societies",
+          "tfidf": 0.31037342802234397
+        },
+        {
+          "term": "creates",
+          "tfidf": 0.2898742767075974
+        },
+        {
+          "term": "modern",
+          "tfidf": 0.2898742767075974
+        },
+        {
+          "term": "systems",
+          "tfidf": 0.24048319433464274
+        },
+        {
+          "term": "economies",
+          "tfidf": 0.24048319433464274
+        },
+        {
+          "term": "disproportionate",
+          "tfidf": 0.16963267954027605
+        },
+        {
+          "term": "ai",
+          "tfidf": 0.16963267954027605
+        },
+        {
+          "term": "vulnerabilities",
+          "tfidf": 0.16963267954027605
+        },
+        {
+          "term": "networks",
+          "tfidf": 0.16963267954027605
+        }
+      ],
+      "nodes": [
+        "b9f39443-414f-4ec5-8063-f809cea4ee0a",
+        "dc354cbe-4884-454e-9f7f-0c010013ffa2"
+      ]
+    },
+    {
+      "cluster_id": 71,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "stimulate",
+          "tfidf": 0.32101921227880836
+        },
+        {
+          "term": "increasing",
+          "tfidf": 0.30341045245925835
+        },
+        {
+          "term": "local",
+          "tfidf": 0.27685867103552847
+        },
+        {
+          "term": "economies",
+          "tfidf": 0.2663214083306594
+        },
+        {
+          "term": "social",
+          "tfidf": 0.24871264851110939
+        },
+        {
+          "term": "revenue",
+          "tfidf": 0.18785850811347868
+        },
+        {
+          "term": "streams",
+          "tfidf": 0.18785850811347868
+        },
+        {
+          "term": "empowering",
+          "tfidf": 0.18785850811347868
+        },
+        {
+          "term": "generating",
+          "tfidf": 0.17186042602274634
+        },
+        {
+          "term": "reduction",
+          "tfidf": 0.17186042602274634
+        }
+      ],
+      "nodes": [
+        "49500857-bbc6-434e-87e3-4791aebcdbb6",
+        "eefd6a53-9801-45cf-944a-d1dcd7623cbf"
+      ]
+    },
+    {
+      "cluster_id": 72,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "stimulating",
+          "tfidf": 0.23780753250910822
+        },
+        {
+          "term": "factor",
+          "tfidf": 0.21755577779711469
+        },
+        {
+          "term": "employed",
+          "tfidf": 0.21755577779711469
+        },
+        {
+          "term": "generating",
+          "tfidf": 0.21755577779711469
+        },
+        {
+          "term": "multiplier",
+          "tfidf": 0.21755577779711469
+        },
+        {
+          "term": "rates",
+          "tfidf": 0.21755577779711469
+        },
+        {
+          "term": "likely",
+          "tfidf": 0.21755577779711469
+        },
+        {
+          "term": "key",
+          "tfidf": 0.2031869291592752
+        },
+        {
+          "term": "improved",
+          "tfidf": 0.2031869291592752
+        },
+        {
+          "term": "standards",
+          "tfidf": 0.2031869291592752
+        }
+      ],
+      "nodes": [
+        "ac9594d3-5f70-4f62-bc3f-34913104cc85",
+        "f6f72dbc-6fd5-43d9-8c0a-9ec3496af728"
+      ]
+    },
+    {
+      "cluster_id": 73,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "autonomy",
+          "tfidf": 0.3582171765100483
+        },
+        {
+          "term": "decisions",
+          "tfidf": 0.28853510294902057
+        },
+        {
+          "term": "economic",
+          "tfidf": 0.22740641972326045
+        },
+        {
+          "term": "constraining",
+          "tfidf": 0.19578138468856615
+        },
+        {
+          "term": "future",
+          "tfidf": 0.19578138468856615
+        },
+        {
+          "term": "independent",
+          "tfidf": 0.19578138468856615
+        },
+        {
+          "term": "nation",
+          "tfidf": 0.1872031739407819
+        },
+        {
+          "term": "global",
+          "tfidf": 0.18384595877707507
+        },
+        {
+          "term": "limits",
+          "tfidf": 0.17910858825502415
+        },
+        {
+          "term": "world",
+          "tfidf": 0.17910858825502415
+        }
+      ],
+      "nodes": [
+        "3cae85e7-b67b-459c-bace-32cd7cbca62d",
+        "504efcd4-6470-48a0-9be3-187b83b00bb1"
+      ]
+    },
+    {
+      "cluster_id": 74,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "entrepreneurs",
+          "tfidf": 0.36721432980997465
+        },
+        {
+          "term": "focus",
+          "tfidf": 0.36721432980997465
+        },
+        {
+          "term": "financial",
+          "tfidf": 0.3535998133191017
+        },
+        {
+          "term": "instability",
+          "tfidf": 0.29654410406012827
+        },
+        {
+          "term": "innovation",
+          "tfidf": 0.2357332088794011
+        },
+        {
+          "term": "anxiety",
+          "tfidf": 0.18360716490498732
+        },
+        {
+          "term": "worrying",
+          "tfidf": 0.18360716490498732
+        },
+        {
+          "term": "bogged",
+          "tfidf": 0.18360716490498732
+        },
+        {
+          "term": "thinking",
+          "tfidf": 0.18360716490498732
+        },
+        {
+          "term": "creativity",
+          "tfidf": 0.18360716490498732
+        }
+      ],
+      "nodes": [
+        "a7ab760a-c233-4304-bf1f-bd64a3cd9957",
+        "c9d87442-3070-462d-a9cc-5cb65f3a0cd9"
+      ]
+    },
+    {
+      "cluster_id": 75,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "transitioning",
+          "tfidf": 0.2783464446447223
+        },
+        {
+          "term": "ability",
+          "tfidf": 0.2693425699153602
+        },
+        {
+          "term": "seeking",
+          "tfidf": 0.2034407725487664
+        },
+        {
+          "term": "afford",
+          "tfidf": 0.2034407725487664
+        },
+        {
+          "term": "attractiveness",
+          "tfidf": 0.2034407725487664
+        },
+        {
+          "term": "replacing",
+          "tfidf": 0.2034407725487664
+        },
+        {
+          "term": "global",
+          "tfidf": 0.1910384071655875
+        },
+        {
+          "term": "alternatives",
+          "tfidf": 0.1861157005436638
+        },
+        {
+          "term": "influencing",
+          "tfidf": 0.1861157005436638
+        },
+        {
+          "term": "expensive",
+          "tfidf": 0.1861157005436638
+        }
+      ],
+      "nodes": [
+        "853709a3-4547-48ff-a48c-f5a57d316c44",
+        "d2f7aace-aa0d-4558-8da3-cc508f15a439"
+      ]
+    },
+    {
+      "cluster_id": 76,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "sovereignty",
+          "tfidf": 0.39196779044324453
+        },
+        {
+          "term": "national",
+          "tfidf": 0.2157859486544351
+        },
+        {
+          "term": "analysis",
+          "tfidf": 0.19598389522162227
+        },
+        {
+          "term": "values",
+          "tfidf": 0.19598389522162227
+        },
+        {
+          "term": "treaties",
+          "tfidf": 0.19598389522162227
+        },
+        {
+          "term": "benefit",
+          "tfidf": 0.19598389522162227
+        },
+        {
+          "term": "inapplicable",
+          "tfidf": 0.19598389522162227
+        },
+        {
+          "term": "favor",
+          "tfidf": 0.19598389522162227
+        },
+        {
+          "term": "limit",
+          "tfidf": 0.19598389522162227
+        },
+        {
+          "term": "goals",
+          "tfidf": 0.19598389522162227
+        }
+      ],
+      "nodes": [
+        "37027c0e-e29a-4fac-b2cf-80f9053db817",
+        "825a44ea-406e-4da4-b40e-0e374c483b33"
+      ]
+    },
+    {
+      "cluster_id": 77,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "stability",
+          "tfidf": 0.22915026242216355
+        },
+        {
+          "term": "instances",
+          "tfidf": 0.1937687181222081
+        },
+        {
+          "term": "resolving",
+          "tfidf": 0.1937687181222081
+        },
+        {
+          "term": "neutralized",
+          "tfidf": 0.1937687181222081
+        },
+        {
+          "term": "humanitarian",
+          "tfidf": 0.1937687181222081
+        },
+        {
+          "term": "precise",
+          "tfidf": 0.1937687181222081
+        },
+        {
+          "term": "destabilization",
+          "tfidf": 0.1937687181222081
+        },
+        {
+          "term": "targeted",
+          "tfidf": 0.1937687181222081
+        },
+        {
+          "term": "civilians",
+          "tfidf": 0.1937687181222081
+        },
+        {
+          "term": "plagued",
+          "tfidf": 0.1937687181222081
+        }
+      ],
+      "nodes": [
+        "74fae69f-27b2-463a-bf22-6dc55f0e0581",
+        "c5dc55a8-31cf-4ba1-ab7e-3b23e9189846"
+      ]
+    },
+    {
+      "cluster_id": 78,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "grid",
+          "tfidf": 0.3087132221343473
+        },
+        {
+          "term": "generators",
+          "tfidf": 0.22563556178054955
+        },
+        {
+          "term": "backup",
+          "tfidf": 0.22563556178054955
+        },
+        {
+          "term": "continuous",
+          "tfidf": 0.22563556178054955
+        },
+        {
+          "term": "banks",
+          "tfidf": 0.22563556178054955
+        },
+        {
+          "term": "battery",
+          "tfidf": 0.22563556178054955
+        },
+        {
+          "term": "sustained",
+          "tfidf": 0.20642037543523253
+        },
+        {
+          "term": "diversified",
+          "tfidf": 0.20642037543523253
+        },
+        {
+          "term": "hospitals",
+          "tfidf": 0.19278698375780776
+        },
+        {
+          "term": "operation",
+          "tfidf": 0.19278698375780776
+        }
+      ],
+      "nodes": [
+        "3a4f6c2f-c3b5-43ac-9765-e6af747ff165",
+        "6cf67f8e-a82a-481c-975b-8b292e23ffa9"
+      ]
+    },
+    {
+      "cluster_id": 79,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "nations",
+          "tfidf": 0.5284774054742196
+        },
+        {
+          "term": "weaker",
+          "tfidf": 0.31007961563156977
+        },
+        {
+          "term": "balance",
+          "tfidf": 0.31007961563156977
+        },
+        {
+          "term": "power",
+          "tfidf": 0.1786773999973595
+        },
+        {
+          "term": "coercion",
+          "tfidf": 0.16947209819332656
+        },
+        {
+          "term": "serves",
+          "tfidf": 0.16947209819332656
+        },
+        {
+          "term": "manipulation",
+          "tfidf": 0.16947209819332656
+        },
+        {
+          "term": "stronger",
+          "tfidf": 0.16947209819332656
+        },
+        {
+          "term": "helps",
+          "tfidf": 0.16947209819332656
+        },
+        {
+          "term": "exploitation",
+          "tfidf": 0.16947209819332656
+        }
+      ],
+      "nodes": [
+        "9330766e-5261-47c6-8e42-b0b4bfe33b13",
+        "9c2f34a2-d9c3-4b60-a703-523ca708bba7"
+      ]
+    },
+    {
+      "cluster_id": 80,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "tech",
+          "tfidf": 0.37960759067165034
+        },
+        {
+          "term": "funding",
+          "tfidf": 0.2920159007930958
+        },
+        {
+          "term": "breaks",
+          "tfidf": 0.18980379533582517
+        },
+        {
+          "term": "homeland",
+          "tfidf": 0.18980379533582517
+        },
+        {
+          "term": "agencies",
+          "tfidf": 0.18980379533582517
+        },
+        {
+          "term": "shifts",
+          "tfidf": 0.18980379533582517
+        },
+        {
+          "term": "department",
+          "tfidf": 0.18980379533582517
+        },
+        {
+          "term": "incentivize",
+          "tfidf": 0.18980379533582517
+        },
+        {
+          "term": "startups",
+          "tfidf": 0.18980379533582517
+        },
+        {
+          "term": "policies",
+          "tfidf": 0.17364005205153987
+        }
+      ],
+      "nodes": [
+        "5e23b6db-e71c-4c2c-9cae-8af03dc5cd22",
+        "f034393d-3b25-4395-bbb8-855af1760ba4"
+      ]
+    },
+    {
+      "cluster_id": 81,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "technology",
+          "tfidf": 0.30365249933711375
+        },
+        {
+          "term": "improvements",
+          "tfidf": 0.20603907870047897
+        },
+        {
+          "term": "jet",
+          "tfidf": 0.20603907870047897
+        },
+        {
+          "term": "thrive",
+          "tfidf": 0.20603907870047897
+        },
+        {
+          "term": "masses",
+          "tfidf": 0.20603907870047897
+        },
+        {
+          "term": "engine",
+          "tfidf": 0.20603907870047897
+        },
+        {
+          "term": "range",
+          "tfidf": 0.20603907870047897
+        },
+        {
+          "term": "skilled",
+          "tfidf": 0.20603907870047897
+        },
+        {
+          "term": "introduction",
+          "tfidf": 0.20603907870047897
+        },
+        {
+          "term": "option",
+          "tfidf": 0.20603907870047897
+        }
+      ],
+      "nodes": [
+        "df4f1c63-ee9d-48ae-b1b2-95ba8930e43c",
+        "e47d91d5-f0d6-4d9b-acd8-37396c6c9b2f"
+      ]
+    },
+    {
+      "cluster_id": 82,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "observed",
+          "tfidf": 0.3107216412339733
+        },
+        {
+          "term": "warming",
+          "tfidf": 0.3107216412339733
+        },
+        {
+          "term": "local",
+          "tfidf": 0.2289648244253352
+        },
+        {
+          "term": "glaciers",
+          "tfidf": 0.15536082061698664
+        },
+        {
+          "term": "imaging",
+          "tfidf": 0.15536082061698664
+        },
+        {
+          "term": "ice",
+          "tfidf": 0.15536082061698664
+        },
+        {
+          "term": "measurements",
+          "tfidf": 0.15536082061698664
+        },
+        {
+          "term": "indicator",
+          "tfidf": 0.15536082061698664
+        },
+        {
+          "term": "sheets",
+          "tfidf": 0.15536082061698664
+        },
+        {
+          "term": "misallocation",
+          "tfidf": 0.15536082061698664
+        }
+      ],
+      "nodes": [
+        "af3b6d45-16d7-4b7b-8763-61958dde851e",
+        "af9a12c6-0d87-46be-bfb5-fdc4709050a9"
+      ]
+    },
+    {
+      "cluster_id": 83,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "severe",
+          "tfidf": 0.20622161649725604
+        },
+        {
+          "term": "habitats",
+          "tfidf": 0.20622161649725604
+        },
+        {
+          "term": "reaching",
+          "tfidf": 0.20622161649725604
+        },
+        {
+          "term": "extinctions",
+          "tfidf": 0.20622161649725604
+        },
+        {
+          "term": "permitting",
+          "tfidf": 0.20622161649725604
+        },
+        {
+          "term": "upgrading",
+          "tfidf": 0.20622161649725604
+        },
+        {
+          "term": "integrate",
+          "tfidf": 0.20622161649725604
+        },
+        {
+          "term": "asian",
+          "tfidf": 0.20622161649725604
+        },
+        {
+          "term": "societies",
+          "tfidf": 0.18865972705856357
+        },
+        {
+          "term": "complex",
+          "tfidf": 0.18865972705856357
+        }
+      ],
+      "nodes": [
+        "456f7e83-70b5-42bf-a596-2df2426aa518",
+        "e8cb7999-0f48-49ef-ae9d-25500ac4ecf4"
+      ]
+    },
+    {
+      "cluster_id": 84,
+      "size": 2,
+      "keywords": [
+        {
+          "term": "food",
+          "tfidf": 0.41299860188179527
+        },
+        {
+          "term": "income",
+          "tfidf": 0.3645635460178937
+        },
+        {
+          "term": "disproportionately",
+          "tfidf": 0.2753324012545302
+        },
+        {
+          "term": "change",
+          "tfidf": 0.2485285848926065
+        },
+        {
+          "term": "low",
+          "tfidf": 0.24304236401192916
+        },
+        {
+          "term": "climate",
+          "tfidf": 0.22408195040250137
+        },
+        {
+          "term": "gap",
+          "tfidf": 0.15048122285037258
+        },
+        {
+          "term": "affects",
+          "tfidf": 0.15048122285037258
+        },
+        {
+          "term": "wealth",
+          "tfidf": 0.15048122285037258
+        },
+        {
+          "term": "widening",
+          "tfidf": 0.15048122285037258
+        }
+      ],
+      "nodes": [
+        "b31e6e15-e51b-444e-85dd-a211b2f9caac",
+        "c2654ed4-aacb-4404-8423-a69c91ede24e"
+      ]
+    }
+  ]
+}

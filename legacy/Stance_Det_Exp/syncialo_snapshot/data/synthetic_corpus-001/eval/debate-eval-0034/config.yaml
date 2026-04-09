@@ -1,0 +1,22 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0034
+degree_config:
+- 5
+- 5
+- 2
+- 0
+motion:
+  claim: Hate crime laws should be expanded to include protections for individuals
+    based on their gender identity and sexual orientation.
+  label: Safeguarding Identity Rights
+split: eval
+tags:
+- Crypto
+- Learning
+- LGBTQ
+- Biden
+- Health
+- ScienceFiction
+- Crime
+- Conscription
+topic: Should hate crime laws be expanded to include gender identity and sexual orientation?

@@ -1,0 +1,25 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0016
+degree_config:
+- 5
+- 5
+- 2
+- 0
+motion:
+  claim: The US government should lead international efforts to regulate cryptocurrency
+    transactions to prevent financial crimes and protect global economic stability.
+  label: Regulate Crypto Now
+split: eval
+tags:
+- Military
+- America
+- Crypto
+- Crime
+- Currency
+- Biden
+- Advertising
+- Conscription
+topic: Is the influence of cryptocurrency on the global economy significant enough
+  to justify stricter regulations, and should the US government, under President Biden,
+  take a leading role in shaping international crypto policies to combat financial
+  crimes?

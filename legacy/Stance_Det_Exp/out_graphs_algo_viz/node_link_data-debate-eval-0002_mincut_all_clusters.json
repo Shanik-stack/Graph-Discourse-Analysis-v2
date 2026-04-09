@@ -1,0 +1,2289 @@
+{
+  "status": "ok",
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "cluster_nodes": 10,
+      "support_edges_in_cluster": 9,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 10,
+            "articulation_points": [
+              "b603175e-8e08-412e-b6fd-2c122367fbbd",
+              "26306ec6-b557-4d00-8fda-7333a5b90ba1",
+              "699b74ee-7814-49cd-8911-f4a54b45bbb0",
+              "34f2b370-3a1c-407a-b1dc-cd3ecc769fcf",
+              "10259f72-92b0-4aac-b1de-982ddcb3101a",
+              "545cddc4-6d94-407f-bd32-a41ed32bbbaa"
+            ],
+            "mincut_capacity": 0.6216120857142757,
+            "mincut_edges": [
+              {
+                "u": "e26b922f-a1ad-48c2-a7a2-810792316f06",
+                "v": "b603175e-8e08-412e-b6fd-2c122367fbbd",
+                "capacity": 0.6216120857142757
+              }
+            ],
+            "partition_sizes": {
+              "A": 9,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 1,
+      "cluster_nodes": 6,
+      "support_edges_in_cluster": 5,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 6,
+            "articulation_points": [
+              "c245cee5-45ff-435a-9ca1-f83f3da9f656",
+              "49c63202-a06f-4761-a287-95b5ee8f6665",
+              "70cd1cd4-a640-4742-9770-8aadca5d26e8"
+            ],
+            "mincut_capacity": 0.572496701061531,
+            "mincut_edges": [
+              {
+                "u": "c245cee5-45ff-435a-9ca1-f83f3da9f656",
+                "v": "49c63202-a06f-4761-a287-95b5ee8f6665",
+                "capacity": 0.572496701061531
+              }
+            ],
+            "partition_sizes": {
+              "A": 2,
+              "B": 4
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 2,
+      "cluster_nodes": 6,
+      "support_edges_in_cluster": 5,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 6,
+            "articulation_points": [
+              "7db64ee6-6a09-49fc-8bdd-ec9112b0201f",
+              "70dbe6de-90a9-4a71-98b4-687ac673773c"
+            ],
+            "mincut_capacity": 0.6384351069305481,
+            "mincut_edges": [
+              {
+                "u": "70dbe6de-90a9-4a71-98b4-687ac673773c",
+                "v": "b602ad47-7361-46fc-8fa6-6b289f0080e9",
+                "capacity": 0.6384351069305481
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 3,
+      "cluster_nodes": 5,
+      "support_edges_in_cluster": 4,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 5,
+            "articulation_points": [
+              "2ac9535f-ba94-45d2-a4ca-67e7678820b6",
+              "9a76f36e-4508-4ec9-b20d-5a5fad5e4ae4",
+              "7bf665d6-6dd4-47f8-ba56-cec03463db7c"
+            ],
+            "mincut_capacity": 0.5501611855316766,
+            "mincut_edges": [
+              {
+                "u": "7bf665d6-6dd4-47f8-ba56-cec03463db7c",
+                "v": "270d61f9-b7f3-4197-919d-f960665111fb",
+                "capacity": 0.5501611855316766
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 4
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 4,
+      "cluster_nodes": 5,
+      "support_edges_in_cluster": 4,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 5,
+            "articulation_points": [
+              "371672c0-0729-47e6-9f1f-898b5182157a",
+              "13969f02-5099-4395-bd04-a9819c257296",
+              "e1ce3b23-3403-4118-92af-153243486745"
+            ],
+            "mincut_capacity": 0.8090136448495705,
+            "mincut_edges": [
+              {
+                "u": "e1ce3b23-3403-4118-92af-153243486745",
+                "v": "13969f02-5099-4395-bd04-a9819c257296",
+                "capacity": 0.8090136448495705
+              }
+            ],
+            "partition_sizes": {
+              "A": 3,
+              "B": 2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 5,
+      "cluster_nodes": 4,
+      "support_edges_in_cluster": 3,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 4,
+            "articulation_points": [
+              "fa092940-9d1e-4107-a6cd-7ee02a9a857a",
+              "e2caab18-c716-4506-ab69-df313dcf06c1"
+            ],
+            "mincut_capacity": 0.6641329562992996,
+            "mincut_edges": [
+              {
+                "u": "fa092940-9d1e-4107-a6cd-7ee02a9a857a",
+                "v": "4caa6630-d35e-435b-824c-3e24bffdd382",
+                "capacity": 0.6641329562992996
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 3
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 6,
+      "cluster_nodes": 4,
+      "support_edges_in_cluster": 3,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 4,
+            "articulation_points": [
+              "63472342-8c60-4b8d-bd0a-3471cef4668e"
+            ],
+            "mincut_capacity": 0.5843350027976809,
+            "mincut_edges": [
+              {
+                "u": "fe977411-1ca3-452c-87e4-2a2452abb97c",
+                "v": "63472342-8c60-4b8d-bd0a-3471cef4668e",
+                "capacity": 0.5843350027976809
+              }
+            ],
+            "partition_sizes": {
+              "A": 3,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 7,
+      "cluster_nodes": 4,
+      "support_edges_in_cluster": 3,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 4,
+            "articulation_points": [
+              "647b1b9f-14c9-477b-867b-ee96ac1163ee"
+            ],
+            "mincut_capacity": 0.6332331952184548,
+            "mincut_edges": [
+              {
+                "u": "647b1b9f-14c9-477b-867b-ee96ac1163ee",
+                "v": "6f99ad5a-2f18-4896-ba52-7e0a0cc450a9",
+                "capacity": 0.6332331952184548
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 3
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 8,
+      "cluster_nodes": 4,
+      "support_edges_in_cluster": 3,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 4,
+            "articulation_points": [
+              "879f5734-dcbb-46d7-8f0f-9a4fe9b13ee8"
+            ],
+            "mincut_capacity": 0.5705495866149243,
+            "mincut_edges": [
+              {
+                "u": "879f5734-dcbb-46d7-8f0f-9a4fe9b13ee8",
+                "v": "328454e1-0402-490f-9585-f7c6f6b2f6e8",
+                "capacity": 0.5705495866149243
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 3
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 9,
+      "cluster_nodes": 4,
+      "support_edges_in_cluster": 3,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 4,
+            "articulation_points": [
+              "a4bae4f6-996c-4cf4-a550-2f1791ca7eae"
+            ],
+            "mincut_capacity": 0.5667086180643874,
+            "mincut_edges": [
+              {
+                "u": "a4bae4f6-996c-4cf4-a550-2f1791ca7eae",
+                "v": "5dd71b9f-129b-4e16-9ac3-02728d28b9d1",
+                "capacity": 0.5667086180643874
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 3
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 10,
+      "cluster_nodes": 4,
+      "support_edges_in_cluster": 3,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 4,
+            "articulation_points": [
+              "4e1bd045-089f-4e7b-9f13-9f7970bdaf05",
+              "9c2dfb39-057b-4a31-8f50-8ae7c1cf1b0e"
+            ],
+            "mincut_capacity": 0.7091927440719593,
+            "mincut_edges": [
+              {
+                "u": "4e1bd045-089f-4e7b-9f13-9f7970bdaf05",
+                "v": "9c2dfb39-057b-4a31-8f50-8ae7c1cf1b0e",
+                "capacity": 0.7091927440719593
+              }
+            ],
+            "partition_sizes": {
+              "A": 2,
+              "B": 2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 11,
+      "cluster_nodes": 4,
+      "support_edges_in_cluster": 3,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 4,
+            "articulation_points": [
+              "647825b5-03a6-460f-bff5-6cce2d281496"
+            ],
+            "mincut_capacity": 0.5895158539029935,
+            "mincut_edges": [
+              {
+                "u": "647825b5-03a6-460f-bff5-6cce2d281496",
+                "v": "660be3ae-a894-4282-9f2f-e4a727917de3",
+                "capacity": 0.5895158539029935
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 3
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 12,
+      "cluster_nodes": 4,
+      "support_edges_in_cluster": 3,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 4,
+            "articulation_points": [
+              "a0de31da-5b9d-4e49-a4af-a6140e71f351",
+              "0cb1b295-57cd-49b3-bf66-88a6d04f3312"
+            ],
+            "mincut_capacity": 0.5504272944029591,
+            "mincut_edges": [
+              {
+                "u": "5e831148-999a-4f9b-96ca-41a41e67ccdb",
+                "v": "0cb1b295-57cd-49b3-bf66-88a6d04f3312",
+                "capacity": 0.5504272944029591
+              }
+            ],
+            "partition_sizes": {
+              "A": 3,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 13,
+      "cluster_nodes": 4,
+      "support_edges_in_cluster": 3,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 4,
+            "articulation_points": [
+              "6e49315e-deaa-429a-85ac-3626e6df76d4",
+              "bc1fb086-c0a0-4935-8a4a-30648891462e"
+            ],
+            "mincut_capacity": 0.7654750815416366,
+            "mincut_edges": [
+              {
+                "u": "5b3a916f-d974-482d-a2d0-19bc2918bb01",
+                "v": "6e49315e-deaa-429a-85ac-3626e6df76d4",
+                "capacity": 0.7654750815416366
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 3
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 14,
+      "cluster_nodes": 4,
+      "support_edges_in_cluster": 3,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 4,
+            "articulation_points": [
+              "deae0416-beb3-4014-9f9b-dc28445505fd"
+            ],
+            "mincut_capacity": 0.5583020816091421,
+            "mincut_edges": [
+              {
+                "u": "1734af1a-9632-468e-b0f6-e6db66a2ae73",
+                "v": "deae0416-beb3-4014-9f9b-dc28445505fd",
+                "capacity": 0.5583020816091421
+              }
+            ],
+            "partition_sizes": {
+              "A": 3,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 15,
+      "cluster_nodes": 3,
+      "support_edges_in_cluster": 2,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 3,
+            "articulation_points": [
+              "e06f476c-968e-4f6c-844d-642c6d009f41"
+            ],
+            "mincut_capacity": 0.5607355223555401,
+            "mincut_edges": [
+              {
+                "u": "9ba36d8f-431a-41dd-a79f-f3aa1830fa58",
+                "v": "e06f476c-968e-4f6c-844d-642c6d009f41",
+                "capacity": 0.5607355223555401
+              }
+            ],
+            "partition_sizes": {
+              "A": 2,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 16,
+      "cluster_nodes": 3,
+      "support_edges_in_cluster": 2,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 3,
+            "articulation_points": [
+              "c180f6d7-b8a4-4aa8-99d9-6ca15b449433"
+            ],
+            "mincut_capacity": 0.5785204556224721,
+            "mincut_edges": [
+              {
+                "u": "c180f6d7-b8a4-4aa8-99d9-6ca15b449433",
+                "v": "8c464a8a-1e06-4ce3-9d53-7474efd18839",
+                "capacity": 0.5785204556224721
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 17,
+      "cluster_nodes": 3,
+      "support_edges_in_cluster": 2,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 3,
+            "articulation_points": [
+              "088d9dac-5531-4b5e-be0e-6758a4f0f723"
+            ],
+            "mincut_capacity": 0.5572281697742216,
+            "mincut_edges": [
+              {
+                "u": "088d9dac-5531-4b5e-be0e-6758a4f0f723",
+                "v": "4b9c2910-0e08-4f7b-9a64-be358d341ff5",
+                "capacity": 0.5572281697742216
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 18,
+      "cluster_nodes": 3,
+      "support_edges_in_cluster": 2,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 3,
+            "articulation_points": [
+              "db992d8a-f3bb-4809-af47-84b33645d87f"
+            ],
+            "mincut_capacity": 0.5985900836015151,
+            "mincut_edges": [
+              {
+                "u": "db992d8a-f3bb-4809-af47-84b33645d87f",
+                "v": "12301baf-e114-4745-b3ec-daed69f11343",
+                "capacity": 0.5985900836015151
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 19,
+      "cluster_nodes": 3,
+      "support_edges_in_cluster": 2,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 3,
+            "articulation_points": [
+              "1815733d-95b4-4041-95e3-2308b3cb85b0"
+            ],
+            "mincut_capacity": 0.5872395523869949,
+            "mincut_edges": [
+              {
+                "u": "1815733d-95b4-4041-95e3-2308b3cb85b0",
+                "v": "b43f899d-846a-4d7b-bec7-48f4a3b1a4bb",
+                "capacity": 0.5872395523869949
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 20,
+      "cluster_nodes": 3,
+      "support_edges_in_cluster": 2,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 3,
+            "articulation_points": [
+              "fdd6dbd7-d92b-46c4-9ccf-e905b4afef9b"
+            ],
+            "mincut_capacity": 0.6249388035185887,
+            "mincut_edges": [
+              {
+                "u": "90419826-ad44-4c27-bce0-5fe45fed0aed",
+                "v": "fdd6dbd7-d92b-46c4-9ccf-e905b4afef9b",
+                "capacity": 0.6249388035185887
+              }
+            ],
+            "partition_sizes": {
+              "A": 2,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 21,
+      "cluster_nodes": 3,
+      "support_edges_in_cluster": 2,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 3,
+            "articulation_points": [
+              "b204d657-2268-471b-a764-fa3995fdb943"
+            ],
+            "mincut_capacity": 0.7108089588695446,
+            "mincut_edges": [
+              {
+                "u": "1fc05ed5-6df1-4030-8e9d-0c2ff95c2adc",
+                "v": "b204d657-2268-471b-a764-fa3995fdb943",
+                "capacity": 0.7108089588695446
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 22,
+      "cluster_nodes": 3,
+      "support_edges_in_cluster": 2,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 3,
+            "articulation_points": [
+              "a62f846c-958f-44f4-93f4-8c87df407dd4"
+            ],
+            "mincut_capacity": 0.8342955702823632,
+            "mincut_edges": [
+              {
+                "u": "a62f846c-958f-44f4-93f4-8c87df407dd4",
+                "v": "d5074f28-d2c6-402c-adb1-1d2bebb70f3c",
+                "capacity": 0.8342955702823632
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 23,
+      "cluster_nodes": 3,
+      "support_edges_in_cluster": 2,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 3,
+            "articulation_points": [
+              "4f9e92b0-5b3e-4d6d-86d4-f8eb465841b6"
+            ],
+            "mincut_capacity": 0.5615502327637807,
+            "mincut_edges": [
+              {
+                "u": "ba04ac88-e1e9-4440-a943-fe3570e9d500",
+                "v": "4f9e92b0-5b3e-4d6d-86d4-f8eb465841b6",
+                "capacity": 0.5615502327637807
+              }
+            ],
+            "partition_sizes": {
+              "A": 2,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 24,
+      "cluster_nodes": 3,
+      "support_edges_in_cluster": 2,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 3,
+            "articulation_points": [
+              "069e5edb-2c52-48bf-bc93-ed4412d2df8e"
+            ],
+            "mincut_capacity": 0.6679618968736019,
+            "mincut_edges": [
+              {
+                "u": "069e5edb-2c52-48bf-bc93-ed4412d2df8e",
+                "v": "cf8767b7-aabd-4730-ad41-90e768a51a44",
+                "capacity": 0.6679618968736019
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 25,
+      "cluster_nodes": 3,
+      "support_edges_in_cluster": 2,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 3,
+            "articulation_points": [
+              "2a2fe507-0483-4568-9b59-4bc3a3732bfb"
+            ],
+            "mincut_capacity": 0.7015062146441189,
+            "mincut_edges": [
+              {
+                "u": "d584da79-f3c6-4d25-846e-f7b03eabbd94",
+                "v": "2a2fe507-0483-4568-9b59-4bc3a3732bfb",
+                "capacity": 0.7015062146441189
+              }
+            ],
+            "partition_sizes": {
+              "A": 2,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 26,
+      "cluster_nodes": 3,
+      "support_edges_in_cluster": 2,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 3,
+            "articulation_points": [
+              "a5e3f165-449e-426b-83ea-a48abf39f452"
+            ],
+            "mincut_capacity": 0.6988443829618064,
+            "mincut_edges": [
+              {
+                "u": "df77b355-b236-4506-afc8-fed73cd4c5db",
+                "v": "a5e3f165-449e-426b-83ea-a48abf39f452",
+                "capacity": 0.6988443829618064
+              }
+            ],
+            "partition_sizes": {
+              "A": 2,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 27,
+      "cluster_nodes": 3,
+      "support_edges_in_cluster": 2,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 3,
+            "articulation_points": [
+              "6f18bc14-1c9c-4fc7-9304-a2a817ed6eee"
+            ],
+            "mincut_capacity": 0.6268490855786761,
+            "mincut_edges": [
+              {
+                "u": "6f18bc14-1c9c-4fc7-9304-a2a817ed6eee",
+                "v": "6eabb91f-d930-4116-a8ad-e1713050cdd4",
+                "capacity": 0.6268490855786761
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 28,
+      "cluster_nodes": 3,
+      "support_edges_in_cluster": 2,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 3,
+            "articulation_points": [
+              "28940448-d8bc-4d89-b759-cb9486a1c052"
+            ],
+            "mincut_capacity": 0.7379024103723055,
+            "mincut_edges": [
+              {
+                "u": "dfe243f4-5471-49c8-bc3e-568f7dde78ba",
+                "v": "28940448-d8bc-4d89-b759-cb9486a1c052",
+                "capacity": 0.7379024103723055
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 29,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.8679565608758854,
+            "mincut_edges": [
+              {
+                "u": "42433dd4-492a-4441-91ba-456ec7859620",
+                "v": "d1af35a8-fd15-4ab8-aae6-b7f0c30dd321",
+                "capacity": 0.8679565608758854
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 30,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.6334902465720404,
+            "mincut_edges": [
+              {
+                "u": "cc85e5f5-c51f-46ca-a734-4831feb76db4",
+                "v": "43f69812-a64b-4652-8233-0941f6687ee2",
+                "capacity": 0.6334902465720404
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 31,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.879443382727085,
+            "mincut_edges": [
+              {
+                "u": "5c1a96f6-c64c-43cf-b20f-981dbec8d79d",
+                "v": "80c2455e-dee0-4263-b271-dc97d80de5f2",
+                "capacity": 0.879443382727085
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 32,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.8959402407900782,
+            "mincut_edges": [
+              {
+                "u": "25c9fba8-655c-4fa6-be75-bebef03fba9b",
+                "v": "bb006956-955d-46de-8819-444ed12b4080",
+                "capacity": 0.8959402407900782
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 33,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.6525391200720507,
+            "mincut_edges": [
+              {
+                "u": "b669d5c7-4149-4d5b-91a4-7312e977c07c",
+                "v": "32539ab5-509d-4266-ab07-8c460f070f9c",
+                "capacity": 0.6525391200720507
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 34,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.6253347775644008,
+            "mincut_edges": [
+              {
+                "u": "faba2157-fd40-4695-972a-feb3ea9733b1",
+                "v": "3262b545-7761-4076-829d-c6f1323d1291",
+                "capacity": 0.6253347775644008
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 35,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.6174391411454552,
+            "mincut_edges": [
+              {
+                "u": "6d9197db-8ae4-4c0e-806a-274e35e6919f",
+                "v": "cf5bc976-d9ac-450c-b3b3-5ab103dc4e48",
+                "capacity": 0.6174391411454552
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 36,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.9026857644214872,
+            "mincut_edges": [
+              {
+                "u": "b88472ed-a69b-449a-89da-baf8f0cf280f",
+                "v": "24ac0f87-2808-4cd9-a3d7-0df620164ec8",
+                "capacity": 0.9026857644214872
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 37,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.6625742016155758,
+            "mincut_edges": [
+              {
+                "u": "28e4301d-cea5-4b52-bd3b-91d17522d28a",
+                "v": "d1b6f1fb-934c-46e0-aa2a-c90830c4e32d",
+                "capacity": 0.6625742016155758
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 38,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.5828212077546072,
+            "mincut_edges": [
+              {
+                "u": "0b31b739-d74a-48ea-880c-64447377173f",
+                "v": "184c69d5-d30e-426f-8fc3-1b387d3e12c2",
+                "capacity": 0.5828212077546072
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 39,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.6162700956103835,
+            "mincut_edges": [
+              {
+                "u": "d65c6231-9618-4654-a5df-ddb209b67b2a",
+                "v": "d40fd966-b3c2-4cdd-8925-475357fd86aa",
+                "capacity": 0.6162700956103835
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 40,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.6823654386665302,
+            "mincut_edges": [
+              {
+                "u": "99d74f03-f840-48d2-b98c-7ba7cb807436",
+                "v": "c2b6c147-32d7-4cc3-9c0f-706fb8ec74da",
+                "capacity": 0.6823654386665302
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 41,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.5669036313975901,
+            "mincut_edges": [
+              {
+                "u": "07b90633-781e-4db0-9579-283dffa985b0",
+                "v": "200268d0-7092-4bc4-84ef-cdc1139bb1d0",
+                "capacity": 0.5669036313975901
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 42,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.7589581800076765,
+            "mincut_edges": [
+              {
+                "u": "f4f5b5c0-216f-446f-a2a3-589a5b279440",
+                "v": "e3433149-a3cf-46a0-9263-83fa785c2fab",
+                "capacity": 0.7589581800076765
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 43,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.937574055250208,
+            "mincut_edges": [
+              {
+                "u": "a653e0f9-dd1d-4c9f-a120-6685aa92d4eb",
+                "v": "6cec2539-70c8-4ec8-a251-d7b738db3eb6",
+                "capacity": 0.937574055250208
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 44,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.6631202012379722,
+            "mincut_edges": [
+              {
+                "u": "7af8c83f-20bd-42fc-909d-eaf24d042743",
+                "v": "156ebad2-4d9e-41ca-b767-4ee1c5ffa1d0",
+                "capacity": 0.6631202012379722
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 45,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.7587565216013843,
+            "mincut_edges": [
+              {
+                "u": "7284232d-afed-481e-b02f-86d18baac820",
+                "v": "5cf00df3-4c7d-4ed5-85d6-8c2ec7e8cabb",
+                "capacity": 0.7587565216013843
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 46,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.5792856867585359,
+            "mincut_edges": [
+              {
+                "u": "fefdb1fc-12f3-4444-a1e4-e4eb511f0db2",
+                "v": "5e6cd164-c34c-418a-bb17-af30ca5726d1",
+                "capacity": 0.5792856867585359
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 47,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.5533818850832611,
+            "mincut_edges": [
+              {
+                "u": "5ff74c79-abaf-4c1e-a317-3d09f3f67560",
+                "v": "90a739a5-0e91-4401-97a1-60bc04d48f24",
+                "capacity": 0.5533818850832611
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 48,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.9011423762313856,
+            "mincut_edges": [
+              {
+                "u": "de038372-762d-4a3b-b2c5-1813c224737d",
+                "v": "7153c590-f888-4e68-a2cf-956693f93f58",
+                "capacity": 0.9011423762313856
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 49,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.602091605871363,
+            "mincut_edges": [
+              {
+                "u": "5caad58e-08a1-4a8a-b7d8-9ef368120a5f",
+                "v": "5edb86a4-048a-4958-9de9-9ed9376fbe0f",
+                "capacity": 0.602091605871363
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 50,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.8448992201630966,
+            "mincut_edges": [
+              {
+                "u": "0ad558a8-5859-431f-9aa6-3c5aa9816630",
+                "v": "91c858fa-9b62-4be0-8647-1db7017c1312",
+                "capacity": 0.8448992201630966
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 51,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.5839347900609599,
+            "mincut_edges": [
+              {
+                "u": "fc9c59db-f565-4b8a-94c7-854e742bc39c",
+                "v": "aa852c83-b7ea-4a76-8485-791e0db1e3a0",
+                "capacity": 0.5839347900609599
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 52,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.7328887143337401,
+            "mincut_edges": [
+              {
+                "u": "d5e35f3e-127f-40de-b174-6d2434cbf63a",
+                "v": "700458f6-a561-4553-a822-19452001dbbb",
+                "capacity": 0.7328887143337401
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 53,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.6030961243960254,
+            "mincut_edges": [
+              {
+                "u": "7c2e8b17-f401-4230-9dd0-018901315943",
+                "v": "248821bd-6775-4341-9574-782971f08e22",
+                "capacity": 0.6030961243960254
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 54,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.6766724154166768,
+            "mincut_edges": [
+              {
+                "u": "50c0c9a7-9f7f-4746-af98-1a554e3563ab",
+                "v": "497beb9b-3add-45ae-871a-0a445edea87f",
+                "capacity": 0.6766724154166768
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 55,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.5731930115452268,
+            "mincut_edges": [
+              {
+                "u": "c921d273-65b7-4bc9-a200-6c48b39c6e4c",
+                "v": "1d3121b6-cb1f-4fdc-876e-ef1521d43fbb",
+                "capacity": 0.5731930115452268
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 56,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.859335036372269,
+            "mincut_edges": [
+              {
+                "u": "ed1db8c1-e6e7-41c3-934c-4d68e9e137bf",
+                "v": "8e368314-0496-4d0d-a324-4e12cdbee331",
+                "capacity": 0.859335036372269
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 57,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.8440861422107455,
+            "mincut_edges": [
+              {
+                "u": "b1a5ddfd-90ab-4f56-babb-19551e7af2c0",
+                "v": "0329edcb-942d-43d0-95a4-bac54ea369f7",
+                "capacity": 0.8440861422107455
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 58,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.6181978165720905,
+            "mincut_edges": [
+              {
+                "u": "c979245e-4e72-414c-b227-c5f65438b559",
+                "v": "614fb23f-e187-4313-95d9-a0b7c1155cc0",
+                "capacity": 0.6181978165720905
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 59,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.7233612618228912,
+            "mincut_edges": [
+              {
+                "u": "19ccd388-9478-43cf-86f6-ab8e4b2907ae",
+                "v": "14829798-b510-4f6b-af98-eabec46dd87d",
+                "capacity": 0.7233612618228912
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 60,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.8991808312247469,
+            "mincut_edges": [
+              {
+                "u": "8945b6e0-1151-4e4e-b7a2-dab09ab0fe5c",
+                "v": "6050aa6b-3f4e-4ab6-81ad-2256aae376f8",
+                "capacity": 0.8991808312247469
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 61,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.7258017132456515,
+            "mincut_edges": [
+              {
+                "u": "c24a46a5-fb42-4b94-a2ab-6bc988e98984",
+                "v": "b8242b20-9ec8-4efd-911e-b37009d52a42",
+                "capacity": 0.7258017132456515
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 62,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.8125185135332055,
+            "mincut_edges": [
+              {
+                "u": "5fdb2146-e069-499d-9b9c-6195af867322",
+                "v": "a256a105-3313-4258-94db-c1b5c7d20c06",
+                "capacity": 0.8125185135332055
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 63,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.5554766363708841,
+            "mincut_edges": [
+              {
+                "u": "bf80064c-a1fd-477e-8cf0-51d9bd609517",
+                "v": "13236a64-74d0-48d3-95c5-ac4a1a9b86f6",
+                "capacity": 0.5554766363708841
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 64,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.6191208046430292,
+            "mincut_edges": [
+              {
+                "u": "fea3a40a-9171-4062-a087-a71497c3a568",
+                "v": "87c9b257-cfc4-4c32-8afe-2b8e05ae7016",
+                "capacity": 0.6191208046430292
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 65,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.8233467377261263,
+            "mincut_edges": [
+              {
+                "u": "326ab2f2-e100-43d5-82e5-881b1bc3a097",
+                "v": "de594b74-34d0-406a-ac66-d32d5d955aeb",
+                "capacity": 0.8233467377261263
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 66,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.6316590717849835,
+            "mincut_edges": [
+              {
+                "u": "00c73be2-874d-490e-92e0-0d73b0e04461",
+                "v": "a3f9be77-9afa-4e99-8399-52448c294406",
+                "capacity": 0.6316590717849835
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 67,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.5674093308164675,
+            "mincut_edges": [
+              {
+                "u": "13a3462d-c152-403c-bdb6-b34d9e41d679",
+                "v": "f4de32e6-b30f-4a4d-81dd-905891b5cc66",
+                "capacity": 0.5674093308164675
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 68,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.734628110255474,
+            "mincut_edges": [
+              {
+                "u": "c56466e1-46f0-4877-b58b-1ecce6403b5c",
+                "v": "70e07398-8f70-41f1-9cf4-312e075a52ce",
+                "capacity": 0.734628110255474
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 69,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.6129650404264035,
+            "mincut_edges": [
+              {
+                "u": "26a8ebff-61c5-4c4a-a8d2-c8e9144bfc49",
+                "v": "90b08c13-5f88-4065-8167-39455604fbcf",
+                "capacity": 0.6129650404264035
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 70,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.7787998397862844,
+            "mincut_edges": [
+              {
+                "u": "dc354cbe-4884-454e-9f7f-0c010013ffa2",
+                "v": "b9f39443-414f-4ec5-8063-f809cea4ee0a",
+                "capacity": 0.7787998397862844
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 71,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.5584863452556468,
+            "mincut_edges": [
+              {
+                "u": "eefd6a53-9801-45cf-944a-d1dcd7623cbf",
+                "v": "49500857-bbc6-434e-87e3-4791aebcdbb6",
+                "capacity": 0.5584863452556468
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 72,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.5908061060160023,
+            "mincut_edges": [
+              {
+                "u": "f6f72dbc-6fd5-43d9-8c0a-9ec3496af728",
+                "v": "ac9594d3-5f70-4f62-bc3f-34913104cc85",
+                "capacity": 0.5908061060160023
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 73,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.60986328125,
+            "mincut_edges": [
+              {
+                "u": "504efcd4-6470-48a0-9be3-187b83b00bb1",
+                "v": "3cae85e7-b67b-459c-bace-32cd7cbca62d",
+                "capacity": 0.60986328125
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 74,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.9588956349586522,
+            "mincut_edges": [
+              {
+                "u": "c9d87442-3070-462d-a9cc-5cb65f3a0cd9",
+                "v": "a7ab760a-c233-4304-bf1f-bd64a3cd9957",
+                "capacity": 0.9588956349586522
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 75,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.6726949213986028,
+            "mincut_edges": [
+              {
+                "u": "d2f7aace-aa0d-4558-8da3-cc508f15a439",
+                "v": "853709a3-4547-48ff-a48c-f5a57d316c44",
+                "capacity": 0.6726949213986028
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 76,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.7339621336652448,
+            "mincut_edges": [
+              {
+                "u": "37027c0e-e29a-4fac-b2cf-80f9053db817",
+                "v": "825a44ea-406e-4da4-b40e-0e374c483b33",
+                "capacity": 0.7339621336652448
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 77,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.643600257116188,
+            "mincut_edges": [
+              {
+                "u": "74fae69f-27b2-463a-bf22-6dc55f0e0581",
+                "v": "c5dc55a8-31cf-4ba1-ab7e-3b23e9189846",
+                "capacity": 0.643600257116188
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 78,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.602322411942576,
+            "mincut_edges": [
+              {
+                "u": "3a4f6c2f-c3b5-43ac-9765-e6af747ff165",
+                "v": "6cf67f8e-a82a-481c-975b-8b292e23ffa9",
+                "capacity": 0.602322411942576
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 79,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.902424214334679,
+            "mincut_edges": [
+              {
+                "u": "9330766e-5261-47c6-8e42-b0b4bfe33b13",
+                "v": "9c2f34a2-d9c3-4b60-a703-523ca708bba7",
+                "capacity": 0.902424214334679
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 80,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.5759058261357896,
+            "mincut_edges": [
+              {
+                "u": "5e23b6db-e71c-4c2c-9cae-8af03dc5cd22",
+                "v": "f034393d-3b25-4395-bbb8-855af1760ba4",
+                "capacity": 0.5759058261357896
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 81,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.6007584337281883,
+            "mincut_edges": [
+              {
+                "u": "e47d91d5-f0d6-4d9b-acd8-37396c6c9b2f",
+                "v": "df4f1c63-ee9d-48ae-b1b2-95ba8930e43c",
+                "capacity": 0.6007584337281883
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 82,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.781071043613945,
+            "mincut_edges": [
+              {
+                "u": "af9a12c6-0d87-46be-bfb5-fdc4709050a9",
+                "v": "af3b6d45-16d7-4b7b-8763-61958dde851e",
+                "capacity": 0.781071043613945
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 83,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.5889550992920858,
+            "mincut_edges": [
+              {
+                "u": "456f7e83-70b5-42bf-a596-2df2426aa518",
+                "v": "e8cb7999-0f48-49ef-ae9d-25500ac4ecf4",
+                "capacity": 0.5889550992920858
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 84,
+      "cluster_nodes": 2,
+      "support_edges_in_cluster": 1,
+      "mincut": {
+        "status": "ok",
+        "components": [
+          {
+            "nodes": 2,
+            "articulation_points": [],
+            "mincut_capacity": 0.7547933827057476,
+            "mincut_edges": [
+              {
+                "u": "b31e6e15-e51b-444e-85dd-a211b2f9caac",
+                "v": "c2654ed4-aacb-4404-8423-a69c91ede24e",
+                "capacity": 0.7547933827057476
+              }
+            ],
+            "partition_sizes": {
+              "A": 1,
+              "B": 1
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

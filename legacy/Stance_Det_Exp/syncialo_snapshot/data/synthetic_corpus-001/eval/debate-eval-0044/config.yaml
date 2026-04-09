@@ -1,0 +1,24 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0044
+degree_config:
+- 3
+- 4
+- 2
+- 1
+- 0
+motion:
+  claim: This house believes that Joe Biden's re-election campaign should prioritize
+    environmental activism over all other issues.
+  label: Planet Over Politics
+split: eval
+tags:
+- Sustainability
+- Countries
+- Fandom
+- Education
+- Biden
+- Campaigning
+- Parenting
+- Military
+topic: 'Joe Biden''s climate change policies are insufficient: should environmental
+  activism be the primary focus of his campaigning efforts?'

@@ -1,0 +1,25 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0006
+degree_config:
+- 4
+- 3
+- 2
+- 1
+- 0
+motion:
+  claim: Current drug policies, including the war on drugs, are counterproductive
+    and exacerbate social problems, particularly for marginalized groups, and should
+    be replaced by evidence-based, public health-focused approaches.
+  label: Rethink the War
+split: eval
+tags:
+- Crypto
+- Learning
+- LGBTQ
+- Biden
+- Health
+- ScienceFiction
+- Crime
+- Conscription
+topic: Is the current approach to drug policy, including the war on drugs, effective
+  in reducing drug use and related crime?

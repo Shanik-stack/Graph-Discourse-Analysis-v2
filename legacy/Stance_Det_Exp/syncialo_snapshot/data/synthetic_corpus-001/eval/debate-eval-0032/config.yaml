@@ -1,0 +1,24 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0032
+degree_config:
+- 5
+- 5
+- 2
+- 0
+motion:
+  claim: This house believes that international trade agreements, such as NAFTA and
+    the WTO, have a net positive impact on the global economy, advancing global health,
+    equality, and economic freedom.
+  label: Free Trade for All
+split: eval
+tags:
+- Crypto
+- Learning
+- LGBTQ
+- Biden
+- Health
+- ScienceFiction
+- Crime
+- Conscription
+topic: Is the current system of international trade agreements, such as NAFTA and
+  the WTO, beneficial to the global economy?

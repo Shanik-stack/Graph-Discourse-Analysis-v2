@@ -1,0 +1,24 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0047
+degree_config:
+- 5
+- 5
+- 2
+- 0
+motion:
+  claim: Cryptocurrency mining's environmental harm exceeds its benefits for human
+    energy consumption and educational value.
+  label: Dirty Digital Gold
+split: eval
+tags:
+- Energy
+- Literature
+- Atheism
+- Education
+- Fandom
+- Crypto
+- Humans
+- Transgender
+topic: Resolved, that the increasing popularity of cryptocurrency mining has an unethical
+  environmental impact that outweighs its potential benefits for human energy consumption
+  and education.

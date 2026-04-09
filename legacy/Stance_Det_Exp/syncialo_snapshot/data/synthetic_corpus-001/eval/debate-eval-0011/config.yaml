@@ -1,0 +1,24 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0011
+degree_config:
+- 2
+- 2
+- 3
+- 1
+- 0
+motion:
+  claim: The existence of the Dark Web is justified as a means of protecting LGBTQ
+    individuals in oppressive regimes.
+  label: Dark Web, Safe Haven
+split: eval
+tags:
+- Cryptocurrency
+- Energy
+- Sustainability
+- DarkWeb
+- FalseTheories
+- Humans
+- LGBTQ
+- Comics
+topic: The Dark Web's existence is a necessary evil for the protection of LGBTQ individuals
+  in oppressive regimes.

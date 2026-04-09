@@ -1,0 +1,24 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0025
+degree_config:
+- 2
+- 2
+- 3
+- 1
+- 0
+motion:
+  claim: Governments should regulate cryptocurrencies to prevent their use in financing
+    discrimination and violence against marginalized groups.
+  label: Regulate Crypto Hate
+split: eval
+tags:
+- DecisionMaking
+- Crypto
+- Vegetarian
+- Military
+- Sustainability
+- Green
+- LGBTQ
+- Policy
+topic: Cryptocurrencies should be regulated by governments to prevent their use in
+  financing anti-LGBTQ and terrorist organizations.

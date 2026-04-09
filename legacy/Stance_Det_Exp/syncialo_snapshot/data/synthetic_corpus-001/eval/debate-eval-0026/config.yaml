@@ -1,0 +1,27 @@
+corpus_uid: synthetic_corpus-001
+debate_uid: debate-eval-0026
+degree_config:
+- 4
+- 3
+- 2
+- 1
+- 0
+motion:
+  claim: The United States should introduce a central bank-issued digital dollar as
+    a replacement for traditional fiat currency to combat financial crimes and enhance
+    national security.
+  label: Digitize the Dollar
+split: eval
+tags:
+- Military
+- America
+- Crypto
+- Crime
+- Currency
+- Biden
+- Advertising
+- Conscription
+topic: Would the introduction of a digital US dollar as a central bank-issued digital
+  currency effectively combat financial crimes, such as money laundering, and reduce
+  the country's reliance on traditional fiat currency, or would it undermine individual
+  freedoms and create new vulnerabilities for malicious actors to exploit?
