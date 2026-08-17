@@ -39,7 +39,4 @@ pip install -r requirements.txt
 - `outputs` is where v2-generated artifacts should live conceptually.
 - the downloaded Syncialo snapshot now lives under `data/syncialo_snapshot/`
 
-## Notes
 
-- The package name remains `btp_clean` to avoid rewriting imports unnecessarily.
-- This v2 layout is mainly a structural cleanup and navigation improvement.
