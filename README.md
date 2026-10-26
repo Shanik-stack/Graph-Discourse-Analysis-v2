@@ -8,20 +8,22 @@ The included example is debate `node_link_data-debate-eval-0002`. Its combined v
 
 ![Static preview of the debate argument graph](examples/debate-0002/graph.png)
 
+**[Open the interactive graph gallery](https://shanik-stack.github.io/Graph-Discourse-Analysis-v2/)**.
+
 | View | What it shows |
 | --- | --- |
-| [Combined graph](examples/debate-0002/combined.html) | Support and attack edges together |
-| [Support graph](examples/debate-0002/support.html) | Supporting relationships |
-| [Attack graph](examples/debate-0002/attack.html) | Attacking relationships |
-| [Filtered graph](examples/debate-0002/generic.html) | Score-filtered graph with layout controls |
-| [Support in-degree](examples/debate-0002/support-indegree.html) | Locally supported claims |
-| [Cluster themes](examples/debate-0002/clusters.html) | Communities of related claims |
-| [Support PageRank](examples/debate-0002/pagerank-support.html) | Influence through support edges |
-| [Attack PageRank](examples/debate-0002/pagerank-attack.html) | Influence through attack edges |
-| [Net PageRank](examples/debate-0002/pagerank-net.html) | Support influence minus attack influence |
-| [Minimum cuts](examples/debate-0002/mincut.html) | Vulnerable connections within clusters |
+| [Combined graph](https://shanik-stack.github.io/Graph-Discourse-Analysis-v2/examples/debate-0002/combined.html) | Support and attack edges together |
+| [Support graph](https://shanik-stack.github.io/Graph-Discourse-Analysis-v2/examples/debate-0002/support.html) | Supporting relationships |
+| [Attack graph](https://shanik-stack.github.io/Graph-Discourse-Analysis-v2/examples/debate-0002/attack.html) | Attacking relationships |
+| [Filtered graph](https://shanik-stack.github.io/Graph-Discourse-Analysis-v2/examples/debate-0002/generic.html) | Score-filtered graph with layout controls |
+| [Support in-degree](https://shanik-stack.github.io/Graph-Discourse-Analysis-v2/examples/debate-0002/support-indegree.html) | Locally supported claims |
+| [Cluster themes](https://shanik-stack.github.io/Graph-Discourse-Analysis-v2/examples/debate-0002/clusters.html) | Communities of related claims |
+| [Support PageRank](https://shanik-stack.github.io/Graph-Discourse-Analysis-v2/examples/debate-0002/pagerank-support.html) | Influence through support edges |
+| [Attack PageRank](https://shanik-stack.github.io/Graph-Discourse-Analysis-v2/examples/debate-0002/pagerank-attack.html) | Influence through attack edges |
+| [Net PageRank](https://shanik-stack.github.io/Graph-Discourse-Analysis-v2/examples/debate-0002/pagerank-net.html) | Support influence minus attack influence |
+| [Minimum cuts](https://shanik-stack.github.io/Graph-Discourse-Analysis-v2/examples/debate-0002/mincut.html) | Vulnerable connections within clusters |
 
-GitHub displays the PNG preview directly. Download an HTML file and open it in a browser to use its interactive controls; GitHub's source viewer does not execute HTML. The example HTML embeds its graph scripts so it does not need a local `lib/` directory.
+GitHub displays the PNG preview directly. GitHub Pages serves these links as interactive web pages. GitHub's source viewer does not execute HTML. The example HTML embeds its graph scripts so it does not need a local `lib/` directory.
 
 ## How it works
 

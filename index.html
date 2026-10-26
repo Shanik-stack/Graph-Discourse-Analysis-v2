@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Interactive argument graphs from a debate stance and discourse analysis project.">
+  <title>Debate Graph Explorer</title>
+  <style>
+    :root { color-scheme: light; font-family: Inter, ui-sans-serif, system-ui, sans-serif; background: #f6f7fb; color: #152033; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    header { background: linear-gradient(125deg, #0c2547, #1c4b73); color: white; padding: 3.5rem max(1.5rem, calc((100vw - 1100px) / 2)); }
+    h1 { margin: 0 0 .65rem; font-size: clamp(2rem, 5vw, 3.5rem); letter-spacing: -.04em; }
+    header p { max-width: 48rem; line-height: 1.6; color: #dcebf7; }
+    main { max-width: 1100px; margin: auto; padding: 2rem 1.5rem 4rem; }
+    .lead { display: grid; grid-template-columns: 1.2fr 1fr; gap: 2rem; align-items: center; margin-bottom: 2.5rem; }
+    .lead img { width: 100%; border-radius: 1rem; box-shadow: 0 12px 35px #162d5120; background: white; }
+    .lead h2, .gallery h2 { margin-top: 0; }
+    .lead p { line-height: 1.65; color: #43536a; }
+    .button { display: inline-block; background: #1479ad; color: white; padding: .8rem 1rem; border-radius: .6rem; text-decoration: none; font-weight: 700; }
+    .button:hover, .button:focus-visible { background: #075b8d; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(215px, 1fr)); gap: 1rem; }
+    .card { display: block; padding: 1.2rem; background: white; border: 1px solid #dce4ec; border-radius: .8rem; text-decoration: none; color: inherit; box-shadow: 0 4px 12px #162d510d; }
+    .card:hover, .card:focus-visible { border-color: #1479ad; box-shadow: 0 8px 22px #162d5122; }
+    .card strong { display: block; margin-bottom: .5rem; color: #0c4872; }
+    .card span { color: #526278; line-height: 1.4; }
+    footer { max-width: 1100px; margin: auto; padding: 0 1.5rem 2rem; color: #526278; }
+    footer a { color: #0c4872; }
+    @media (max-width: 700px) { .lead { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Debate Graph Explorer</h1>
+    <p>Explore support and attack relationships between claims in a sample debate. Each view highlights a different part of the argument structure.</p>
+  </header>
+  <main>
+    <section class="lead" aria-labelledby="sample-heading">
+      <div>
+        <h2 id="sample-heading">Debate 0002</h2>
+        <p>The combined graph contains 653 claims and 618 support or attack relationships. Pan, zoom, and hover over nodes in the interactive views to inspect the debate.</p>
+        <a class="button" href="examples/debate-0002/combined.html">Explore the combined graph</a>
+      </div>
+      <img src="examples/debate-0002/graph.png" alt="Preview of one claim and its neighboring support and attack relationships">
+    </section>
+    <section class="gallery" aria-labelledby="gallery-heading">
+      <h2 id="gallery-heading">Choose a view</h2>
+      <div class="cards">
+        <a class="card" href="examples/debate-0002/combined.html"><strong>Combined graph</strong><span>Support and attack together</span></a>
+        <a class="card" href="examples/debate-0002/support.html"><strong>Support graph</strong><span>Supporting relationships</span></a>
+        <a class="card" href="examples/debate-0002/attack.html"><strong>Attack graph</strong><span>Attacking relationships</span></a>
+        <a class="card" href="examples/debate-0002/generic.html"><strong>Filtered graph</strong><span>Score filters and layout controls</span></a>
+        <a class="card" href="examples/debate-0002/support-indegree.html"><strong>Support in-degree</strong><span>Locally supported claims</span></a>
+        <a class="card" href="examples/debate-0002/clusters.html"><strong>Cluster themes</strong><span>Communities of related claims</span></a>
+        <a class="card" href="examples/debate-0002/pagerank-support.html"><strong>Support PageRank</strong><span>Influence through support</span></a>
+        <a class="card" href="examples/debate-0002/pagerank-attack.html"><strong>Attack PageRank</strong><span>Influence through attack</span></a>
+        <a class="card" href="examples/debate-0002/pagerank-net.html"><strong>Net PageRank</strong><span>Support influence minus attack influence</span></a>
+        <a class="card" href="examples/debate-0002/mincut.html"><strong>Minimum cuts</strong><span>Vulnerable connections within clusters</span></a>
+      </div>
+    </section>
+  </main>
+  <footer>Sample views use saved model predictions. <a href="https://github.com/Shanik-stack/Graph-Discourse-Analysis-v2">Read the project and reproducibility notes on GitHub</a>.</footer>
+</body>
+</html>
