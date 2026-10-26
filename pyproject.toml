@@ -3,9 +3,9 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "btp-clean"
+name = "debate-graph"
 version = "0.1.0"
-description = "Cleaned project structure for debate, discourse, and stance-graph experiments."
+description = "Debate stance classification, argument graphs, and graph analysis."
 readme = "README.md"
 requires-python = ">=3.11"
 

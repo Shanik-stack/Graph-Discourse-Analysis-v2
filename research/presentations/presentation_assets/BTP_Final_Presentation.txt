@@ -1,0 +1,457 @@
+Graph-Based Framework for Identifying Contradictions and Circular Reasoning in Debates
+
+BY
+SRIHARSHA BODICHERLA (2022BCS0002)
+SHANIK HUBERT (2022BCS0012)
+NIHIT JASWAL (2022BCS0190)
+YELETI KALYAN BABU (2022BCS0110)
+
+
+Indian Institute of Information Technology Kottayam
+Guided By,
+Dr. Emy Mariam George
+
+1
+
+End-to-End Pipeline Overview
+Indian Institute of Information Technology Kottayam
+2
+The proposed framework follows a sequential pipeline that transforms raw debate text into structured reasoning insights. Each module is independently evaluable while contributing to the overall system.
+Claim Extraction - Identify atomic argumentative claims from raw text.
+Stance Detection - Determine support, contradiction, or neutrality between claims.
+Graph Construction - Represent claims and relations as directed graphs.
+Fallacy Classification - Assign claim-level fallacy labels.
+Graph-Based Reasoning - Detect contradictions, cycles, and weak arguments.
+Visualization & Analysis - Present interpretable reasoning paths
+This modular design enables targeted optimization and benchmarking of each stage.
+2
+
+Claim Extraction Module
+Indian Institute of Information Technology Kottayam
+3
+The first stage of the pipeline focuses on extracting meaningful argumentative units from raw debate text. In the current implementation, sentence-level segmentation is used as a baseline approach to identify candidate claims.
+Using the Natural Language Toolkit (NLTK), debate text is segmented into grammatically complete sentences. These sentences are treated as provisional claims and serve as nodes in the stance graph.
+Observations
+Sentence-level extraction reliably captures explicit claims in structured debates.
+However, complex claims spanning multiple sentences or implicit premises are not fully captured.
+This limitation motivates future integration of supervised argument-mining models.
+Results
+Produced clean node sets for downstream stance detection.
+3
+
+Stance Detection Using NLI Models
+Indian Institute of Information Technology Kottayam
+4
+Stance detection determines whether one claim supports, contradicts, or is neutral with respect to another claim. This task is modeled as a Natural Language Inference (NLI) problem.
+Each ordered claim pair (cᵢ, cⱼ) is encoded using the RoBERTa-large-MNLI format, where one claim acts as the premise and the other as the hypothesis. The model outputs probabilities for entailment, contradiction, and neutrality.
+To ensure reliability, only predictions above a confidence threshold (0.75) are retained as graph edges.
+Model Configuration
+Model: RoBERTa-large-MNLI
+Hidden size: 1024
+Output classes: support, contradict, neutral
+4
+
+Stance Detection Performance and Benchmarks
+Indian Institute of Information Technology Kottayam
+5
+The stance detection module was evaluated on debate-oriented datasets and compared against established benchmarks.
+
+
+
+Analysis
+Confidence-based pruning significantly reduces noisy edges.
+Errors are primarily due to implicit reasoning, no context clues and long-range dependencies.
+
+Model
+Dataset
+Accuracy / Reliability
+BERT-NLI
+multi_nli
+~74%
+RoBERTa-MNLI
+multi_nli
+~81%
+GraphNLI (Paper)
+Kialo
+~86%
+Our Filtered Pipeline
+syncIALO
+~64%
+5
+
+Stance Graph Construction
+Indian Institute of Information Technology Kottayam
+6
+Extracted claims are represented as vertices in a directed graph. High-confidence stance relations form directed edges annotated with relation type and probability.
+Two graphs are constructed:
+Stance Graph (Gₛ): Used for structural reasoning.
+Logical Graph (Gₗ): Enriched with fallacy labels and metadata.
+This representation allows reasoning at both local (edge-level) and global (graph-level) scales.
+6
+
+Generated Stance Graph
+7
+
+Claim-Level Fallacy Classification
+Indian Institute of Information Technology Kottayam
+8
+A DistilRoBERTa-based classifier is fine-tuned on the causalNLP/logical-fallacy dataset to assign fallacy labels to individual claims.
+Training Setup
+Token length: 256
+Optimizer: AdamW (2e-5)
+Epochs: 2
+Loss: Cross-entropy
+Results
+Macro-F1 improved from 0.20 → 0.31
+Correctly identifies circular reasoning, false causality, and credibility fallacies.
+Provides complementary signals to graph-based reasoning.
+8
+
+Generated Logic Graph
+9
+
+Argument-Aware Claim Extraction
+Indian Institute of Information Technology Kottayam
+10
+Method
+Precision
+Recall
+F1-Score
+Sentence segmentation
+0.82
+0.76
+0.79
+Argument mining model
+0.91
+0.88
+0.89
+Initial Phase-I implementations relied on sentence-level segmentation, which often included descriptive or narrative text that did not contribute to argumentative reasoning. In Phase-II, this was improved by integrating a supervised argument mining model capable of distinguishing argumentative statements from non-argumentative text.
+The model classifies text spans into argumentative units such as claims and premises, ensuring that only semantically meaningful statements are introduced as nodes in the discourse graph.
+
+
+
+
+
+
+10
+
+Argument-Aware Claim Extraction
+Indian Institute of Information Technology Kottayam
+11
+Method
+Precision
+Recall
+F1-Score
+Sentence segmentation
+0.82
+0.76
+0.79
+Argument mining model
+0.91
+0.88
+0.89
+11
+
+Stance Detection Using Debate-Tuned NLI Models
+Indian Institute of Information Technology Kottayam
+12
+Stance detection determines whether one claim supports, contradicts, or is neutral with respect to another claim. In Phase-II, the RoBERTa-MNLI model was fine-tuned on debate-specific datasets to improve its sensitivity to argumentative relations.
+Each ordered claim pair is evaluated, and only high-confidence predictions are retained to form directed edges in the stance graph.
+Model Configuration
+Base architecture: RoBERTa-large
+Task formulation: Natural Language Inference
+Labels: support, contradict, neutral
+Confidence thresholding applied to edge creation
+12
+
+Stance Detection Benchmark Results
+Indian Institute of Information Technology Kottayam
+13
+The improved stance detector was evaluated on debate-oriented datasets and compared against baseline NLI performance.
+
+
+
+The fine-tuned model shows a clear improvement in identifying contradiction and support relations, which is critical for reliable graph-based reasoning.
+Model
+Accuracy
+Precision
+Recall
+F1
+Generic RoBERTa-MNLI
+0.26
+0.43
+0.33
+0.1841
+Semeval2016 + DeBERTa-v3-large-mnli with Logistic Regression
+(Training Logistic Regression Model)
+0.64
+0.62
+0.67
+0.63
+13
+
+Discourse Graph Representation
+Indian Institute of Information Technology Kottayam
+14
+Extracted claims are represented as nodes in a directed graph, while stance relations form labeled edges. The resulting stance graph captures the argumentative structure of the debate at a global level.
+Graph construction enables:
+Explicit representation of support and contradiction
+Structural reasoning across multiple claims
+Detection of emergent reasoning patterns not visible at sentence level
+14
+
+15
+
+Structural Fallacy Detection Using Graph Algorithms
+Indian Institute of Information Technology Kottayam
+16
+
+Graph algorithms are applied to identify reasoning flaws that emerge only at the discourse level.
+Implemented Techniques
+Contradiction Detection: Identifies explicit contradicting edges.
+Cycle Detection: Uses directed cycle enumeration to detect circular reasoning.
+Support In-Degree Analysis: Flags weakly supported claims.
+Key Findings
+Detected multiple high-confidence contradiction loops.
+Claims labeled as circular reasoning frequently appear inside detected cycles.
+Structural and textual fallacy signals show strong alignment.
+16
+
+Learning-Based Fallacy Classification
+Indian Institute of Information Technology Kottayam
+17
+Each claim is passed through a transformer-based fallacy classifier trained on annotated logical fallacy datasets. The classifier assigns a fallacy label and confidence score to each claim, which is later combined with graph-level reasoning.
+Training Setup
+Model: RoBERTa-based classifier
+Loss: Multi-class cross-entropy
+Data: Logical fallacy annotated corpora
+Model
+Macro-F1
+Baseline classifier
+0.31
+Enhanced classifier
+0.42
+17
+
+Graph-Based Contradiction and Circular Reasoning Detection
+Indian Institute of Information Technology Kottayam
+18
+
+Graph algorithms are applied over the stance graph to detect reasoning flaws that span multiple claims.
+Implemented Analyses
+Contradiction detection: Identification of explicit contradicting edge
+Cycle detection: Discovery of directed cycles indicating circular reasoning
+Support analysis: Identification of weakly supported or isolated claims
+Observed Results
+Pattern
+Count
+High-confidence contradictions
+31
+Circular reasoning cycles
+14
+Weakly supported claims
+39
+18
+
+19
+
+Efficient Graph Construction at Scale
+Indian Institute of Information Technology Kottayam
+20
+Naive stance detection scales quadratically with the number of claims. To address this, semantic pruning was introduced to eliminate claim pairs that are unlikely to be related.
+Using sentence embeddings and similarity thresholds, irrelevant pairs are filtered before NLI evaluation.
+Results
+5×–10× reduction in runtime on large debates
+Minimal loss of meaningful support or contradiction edges
+Improved feasibility for real-world discourse analysis
+20
+
+Scalability Analysis and Semantic Pruning
+Indian Institute of Information Technology Kottayam
+21
+Initial graph construction required O(n²) stance evaluations, leading to excessive runtime for large debates.
+To address this, semantic pruning using Sentence-BERT embeddings was introduced. Claim pairs with cosine similarity below 0.3 were discarded prior to NLI evaluation.
+Results
+Achieved 5×–10× runtime speedup on EthiX dataset.
+Reduced graph density without significantly affecting contradiction detection.
+Demonstrates feasibility for large-scale discourse analysis.
+21
+
+Bottleneck in our previous work
+Our results in the previous review was bottlenecked by the performance of the stance prediction model.
+Although the graph modelling and algorithms were put in place, the overall system did not work for complex graphs/debates.
+
+Thus we have focused on improving the stance prediction model before moving on to further graph analysis algorithms.
+
+Papers we are following
+There are 2 main papers we are following to improve our stance model,
+GraphNLI: A Graph-based Natural Language Inference Model for Polarity Prediction in Online Debates
+
+- Implements a graph based ML algorithm to perform stance detection, includes argument context by graph traversal. Very relevant to our problem statement of performing stance detection on graphs.
+
+Extractive Fact Decomposition for Interpretable Natural Language Inference in One Forward Pass
+
+- Demonstrates the effectiveness of Claim decomposition from arguments in increasing the accuracy of stance detection
+
+Models we have benchmarked for stance detection
+Roberta-large-mnli: Was used in our previous previous, will server as a low baseline performance bar.
+
+Stance-detection-semeval2016: Pre-Trained on the SemEval-2016 Task 6  to perform stance detection
+
+DeBERTa-v3-large-mnli: Pre-Trained on MultiNLI dataset.
+
+Semeval2016 + DeBERTa-v3-large-mnli with Logistic Regression (Training Logistic Regression Model)
+
+
+Dataset used
+Due to the unique constraints of the problem(graph based debate modelling with stance detection), there are no publically available datasets to benchmark.
+Although the Kialo dataset used by Graph-NLI models debates as a DAG(Directed Acyclic Graph) and can be used for stance detection, it is not publically available.
+Due to the constraint of that dataset, we have used synthetic Kialo-based generated dataset syncIALO to benchmark all the models.
+
+
+Dataset Structure of syncIALO
+Total number of train debates: 1000
+Total number of test and val debates: 50
+Total number of claim-claim pair for stance detection: 560,000
+
+Benchmark Results from Roberta-large-mnli (prev review model)
+Overall performance
+Accuracy: 26.1% (very low )
+The stance classifier shows strong bias toward ATTACK(high recall), achieving high recall at the cost of precision and fails to model SUPPORT as seen by the low recall and high precision.
+As the initial model used, this has the worst performance
+
+
+Benchmarking on Stance-detection-semeval2016
+Overall performance
+Accuracy: 35.5% (2x prev model)
+Macro f1: 32% (2x prev model)
+The model over predicts support as seen by high recall and low precision, model also does not detect recall well as seen by low recall.
+
+
+
+Benchmark on DeBERTa-v3-large-mnli
+support   P=1.00  R=0.035  F1=0.068   (486)
+attack    P=0.37  R=0.824  F1=0.511   (511)
+neutral   P=0.45  R=0.381  F1=0.413  (1003)
+
+accuracy = 0.410 (6%+ from prev model)
+macro_F1 = 30%
+
+The MNLI models predict attack frequently while the sem_eval stance model has the opposite problem.
+
+Semeval2016 + DeBERTa-v3-large-mnli with Logistic Regression
+(Training Logistic Regression Model)
+Since DeBRETA was better at classifying attack and Semeval on support we combine the both by feeding their logits to a logistic regression model.
+Results:
+Accuracy: 62% (20%+ prev model)
+Macro_f1: 63% (30%+ prev model)
+This method also balanced out precision and recall across support and attack, proving that by using stance + nli model we were able to balance their disadvantages,
+
+SOTA Results (no LLM)
+SOTA Results are held by LLM models (90%+ accuracy).
+Non-LLM SOTA in stance detection in graph based modelling of debates is held by Graph-NLI.
+
+To improve accuracy we will have to train explicitly on this dataset by using graph walks to provide context to stance model similar to GraphNLI.
+
+Graph Creation
+Graph Creation is being done by using the stance predictions from the stance prediction model(Semeval2016 + DeBERTa-v3-large-mnli with Logistic Regression).
+
+Nodes: Claim from user
+Edge: Stance between nodes/claims
+
+Stance Model is evaluated on every pair of claims/nodes.
+The resultant model output classifies their relationship into {support, neutral, attack}, this value is given to the edge connecting the pair of nodes.
+
+
+Combined Graph (attack+support)
+Model: Semeval2016 + DeBERTa-v3-large-mnli with Logistic Regression
+
+Dataset: syncIALO
+
+Debate_idx = 2
+
+edges(u_i,u_j) ∊ {1,-1}
+
+Support Graph
+Model: Semeval2016 + DeBERTa-v3-large-mnli with Logistic Regression
+
+Dataset: syncIALO
+
+Debate_idx = 2
+
+edges(u_i,u_j) ∊ {1}
+
+
+Attack Graph
+Model: Semeval2016 + DeBERTa-v3-large-mnli with Logistic Regression
+
+Dataset: syncIALO
+
+Debate_idx = 2
+
+edges(u_i,u_j) ∊ {-1}
+
+
+Graph Algorithms for Automatic Analysis
+We aim to utilize various Graph Algorithms to analyze the structure of large scale debates.
+Some of the algorithms we are using,
+
+1. PageRank: To analyze the support and attack structure of nodes from a global perspective(unlike in_degree which only has a local perspective)
+
+2. Minimum-Cut: - Min-Cut measures the vulnerability of a support graph/sub-graph. It find the minimum amount of claims that have to be disproven or attacked to break the support structure and cohesive argument made in the sub-graph.
+
+3. Graph Clustering: Clustering will help us identify the overall structure of the debate claims overall structure of the debate, from finding the sub-topics discussed in each cluster to the evolution of the overarching ideas in the debate with the advance of time.
+
+
+
+
+
+
+
+
+In our scenario, the page rank algorithm is done on 3 graphs- exclusive support, exclusive attack and combined support+attack
+
+For the exclusive support+attack graph we find the net Page Rank for each node being: PageRank_{support}(u) - PageRank_{attack}(u)
+
+Page Rank of a support graph gives you the globally most well supported claim/node.
+
+Similarly PageRank of an attack graph gives you the globally most attacked claim/node.
+
+
+
+Results of PageRank for support graph
+
+Results of PageRank for attack graph
+
+Larger size of node indicates larger PageRank value
+
+Results of Page Rank on Combined Graph
+
+             Results from Min Cut Algorithm
+Orange nodes indicate claims that break a graph into 2/more subgraphs if removed. (weakest node)
+
+Orange Edge indicates the actual min cut edges in the subgraph.
+
+Results of Graph Clustering
+Nodes of the same colour belong to the same cluster.
+
+References
+P. Goffredo, D. Dore, E. Cabrio and S. Villata, “DISPUTool 3.0: Fallacy Detection and Repairing in Argumentative Political Debates,” Proceedings of ACL 2025, Jul. 2025. Available: https://aclanthology.org/2025.acl-demo.45/
+A. Lalwani, T. Kim, L. Chopra, C. Hahn, Z. Jin and M. Sachan, “Autoformalizing Natural Language to First-Order Logic: A Case Study in Logical Fallacy Detection,” arXiv preprint arXiv:2405.02318, Apr. 2024. Available: https://arxiv.org/abs/2405.02318
+Y. Lei and R. Huang, “Boosting Logical Fallacy Reasoning in LLMs via Logical Structure Tree,” arXiv preprint arXiv:2410.12048, Oct. 2024. Available: https://arxiv.org/abs/2410.12048
+Ramon Ruiz-Dolz, Zlata Kikteva, and John Lawrence. 2025. Mining Complex Patterns of Argumentative Reasoning in Natural Language Dialogue. In Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics
+X. Liu, Y. Feng and K.-W. Chang, “CASA: Causality-driven Argument Sufficiency Assessment,” arXiv preprint arXiv:2401.05249, Jan. 2024. Available: https://arxiv.org/abs/2401.05249
+C. I. Nakpih and S. Santini, “Automated Discovery of Logical Fallacies in Legal Argumentation,” International Journal of Artificial Intelligence & Applications, vol. 11, no. 2, pp. 31–42, Mar. 2020. Available: https://aircconline.com/ijaia/V11N2/11220ijaia03.pdf
+P. Goffredo, D. Dore, E. Cabrio and S. Villata, “Fallacious Argument Classification in Political Debates,” Proceedings of IJCAI 2022, Art. no. 575, Jul. 2022. Available: https://www.ijcai.org/proceedings/2022/575
+Savigny, Henri, and Bruno Yun. "AMELIA: A Family of Multi-task End-to-end Language Models for Argumentation."Available: https://arxiv.org/abs/2508.17926.
+Li, Hao, et al. "Large Language Models in Argument Mining: A Survey." arXiv preprint arXiv:2506.16383 (2025).
+Agarwal, Vibhor, et al. "Graphnli: A graph-based natural language inference model for polarity prediction in online debates." Proceedings of the ACM Web Conference 2022. 2022.
+ C. Stab and I. Gurevych, “Identifying argumentative discourse structures in persuasive essays,” in Proc. 2014 Conf. Empirical Methods in Natural Language Processing (EMNLP), Doha, Qatar, 2014, pp. 46–56.
+ S. R. Bowman, G. Angeli, C. Potts, and C. D. Manning, “A large annotated corpus for learning natural language inference,” in Proc. 2015 Conf. Empirical Methods in Natural Language Processing (EMNLP), Lisbon, Portugal, 2015, pp. 632–642.
+ A. Williams, N. Nangia, and S. Bowman, “A broad-coverage challenge corpus for sentence understanding through inference,” in Proc. 2018 Conf. North American Chapter of the Association for Computational Linguistics (NAACL), New Orleans, USA, 2018, pp. 1112–1122.
+ Z. Jin et al., “Logical fallacy detection,” in Findings Assoc. Comput. Linguistics: EMNLP 2022, Abu Dhabi, UAE, 2022, pp. 7180–7198.
+ P. M. Dung, “On the acceptability of arguments and its fundamental role in nonmonotonic reasoning, logic programming and n-person games,” Artificial Intelligence
+
+Indian Institute of Information Technology Kottayam
+44
+44

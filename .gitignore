@@ -1,0 +1,29 @@
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Downloaded datasets and model caches
+data/syncialo_snapshot/
+models/
+
+# Regenerated outputs; keep the graph input used by the README demo
+outputs/pipeline/*
+!outputs/pipeline/graphs/
+outputs/pipeline/graphs/*
+!outputs/pipeline/graphs/nodes.tsv
+!outputs/pipeline/graphs/edges.tsv
+outputs/benchmark_reports/
+
+# PyVis and LaTeX build byproducts
+lib/
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.nav
+*.out
+*.snm
+*.synctex.gz

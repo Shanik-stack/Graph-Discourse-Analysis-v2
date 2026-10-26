@@ -1,18 +1,14 @@
-# Outputs
+# Generated outputs
 
-This folder is reserved for generated artifacts in the v2 layout.
+`run_pipeline.py` writes into `outputs/pipeline/`:
 
-Suggested organization:
+| Path | Contents |
+| --- | --- |
+| `graphs/nodes.tsv`, `graphs/edges.tsv` | Graph input and predicted labels; included to reproduce the README demo |
+| `analysis/` | Support in-degree, PageRank, minimum cut, clusters, and themes |
+| `viz_basic/` | Combined, attack, and support HTML graphs |
+| `viz_algo/` | Algorithm-focused interactive HTML graphs |
+| `viz_generic/` | Generic HTML, PNG, GEXF, and summary CSV |
+| `run_summary.json` | Configuration and output paths for the latest run |
 
-- `full_pipeline/`
-  - end-to-end run outputs
-- `graphs/`
-  - exported `nodes.tsv`, `edges.tsv`, and graph files
-- `analysis/`
-  - PageRank, support in-degree, clustering, min-cut summaries
-- `visualizations/`
-  - HTML, PNG, GEXF, and algorithm-oriented graph views
-
-Note:
-
-In v2, `btp_clean.paths` has been remapped so active pipeline outputs now point at `outputs/`.
+Benchmark runs write reports to `outputs/benchmark_reports/`. Regenerated files are ignored by Git except the two graph TSVs used by the README demo. Portable examples live in [`examples/debate-0002/`](../examples/debate-0002/).
