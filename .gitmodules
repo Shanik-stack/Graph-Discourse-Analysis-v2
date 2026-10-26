@@ -1,0 +1,3 @@
+[submodule "legacy/New_Igraph"]
+	path = legacy/New_Igraph
+	url = https://github.com/Shanik-stack/Graph_Discourse_Analysis.git
